@@ -1,0 +1,41 @@
+2020-11-17 21:14:13.345  INFO 15472 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 15472 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-17 21:14:13.346 DEBUG 15472 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-17 21:14:13.347  INFO 15472 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-17 21:14:17.565  INFO 15472 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 4.53 seconds (JVM running for 5.436)
+2020-11-17 21:15:08.897  INFO 17656 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 17656 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-17 21:15:08.898 DEBUG 17656 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-17 21:15:08.898  INFO 17656 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-17 21:15:12.084  INFO 17656 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 3.408 seconds (JVM running for 4.128)
+2020-11-17 21:15:31.946  INFO 18156 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 18156 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-17 21:15:31.946 DEBUG 18156 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-17 21:15:31.947  INFO 18156 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-17 21:15:35.101  INFO 18156 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 3.401 seconds (JVM running for 4.091)
+2020-11-17 21:16:06.423  INFO 19964 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 19964 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-17 21:16:06.424 DEBUG 19964 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-17 21:16:06.425  INFO 19964 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-17 21:16:09.655  INFO 19964 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 3.463 seconds (JVM running for 4.132)
+2020-11-17 21:18:26.594  INFO 6304 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 6304 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-17 21:18:26.596 DEBUG 6304 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-17 21:18:26.596  INFO 6304 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-17 21:18:29.690  INFO 6304 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 3.315 seconds (JVM running for 4.001)
+2020-11-17 21:19:26.181  INFO 14324 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 14324 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-17 21:19:26.181 DEBUG 14324 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-17 21:19:26.182  INFO 14324 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-17 21:19:29.406  INFO 14324 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 3.455 seconds (JVM running for 4.203)
+2020-11-17 21:36:33.802  INFO 14616 --- [main] com.inet.InetApplication                 : Starting InetApplication on DESKTOP-TSJVEJ5 with PID 14616 (D:\8.items\spring-boot-android\target\classes started by HCY in D:\8.items\spring-boot-android)
+2020-11-17 21:36:33.804 DEBUG 14616 --- [main] com.inet.InetApplication                 : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-17 21:36:33.804  INFO 14616 --- [main] com.inet.InetApplication                 : No active profile set, falling back to default profiles: default
+2020-11-17 21:36:37.775  INFO 14616 --- [main] com.inet.InetApplication                 : Started InetApplication in 4.477 seconds (JVM running for 9.598)
+2020-11-17 21:37:22.333 DEBUG 14616 --- [http-nio-6161-exec-2] c.inet.code.mapper.UserMapper.getLogin   : ==>  Preparing: SELECT t1.user_uuid AS userUuid, t1.user_phone AS userPhone, t1.user_number AS userNumber, t1.user_name AS userName, t1.user_class AS userClass, t1.user_buddha AS userBuddha, t3.role_name AS roleName FROM tbl_user AS t1 LEFT JOIN tbl_character AS t2 ON t1.user_number = t2.character_number LEFT JOIN tbl_role AS t3 ON t2.character_role_uuid = t3.role_uuid LEFT JOIN tbl_cipher AS t4 ON t1.user_number = t4.cipher_number WHERE t4.cipher_number = ? AND t4.cipher_password = ? LIMIT 1;
+2020-11-17 21:37:22.384 DEBUG 14616 --- [http-nio-6161-exec-2] c.inet.code.mapper.UserMapper.getLogin   : ==> Parameters: 2019002126(String), 202cb962ac59075b964b07152d234b70(String)
+2020-11-17 21:37:22.414 DEBUG 14616 --- [http-nio-6161-exec-2] c.inet.code.mapper.UserMapper.getLogin   : <==      Total: 1
+2020-11-17 21:38:18.269  INFO 19264 --- [main] com.inet.InetApplication                 : Starting InetApplication on DESKTOP-TSJVEJ5 with PID 19264 (D:\8.items\spring-boot-android\target\classes started by HCY in D:\8.items\spring-boot-android)
+2020-11-17 21:38:18.272 DEBUG 19264 --- [main] com.inet.InetApplication                 : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-17 21:38:18.272  INFO 19264 --- [main] com.inet.InetApplication                 : No active profile set, falling back to default profiles: default
+2020-11-17 21:38:21.475  INFO 19264 --- [main] com.inet.InetApplication                 : Started InetApplication in 3.598 seconds (JVM running for 4.844)
+2020-11-17 21:38:33.177 DEBUG 19264 --- [http-nio-6161-exec-1] c.inet.code.mapper.UserMapper.getLogin   : ==>  Preparing: SELECT t1.user_uuid AS userUuid, t1.user_phone AS userPhone, t1.user_number AS userNumber, t1.user_name AS userName, t1.user_class AS userClass, t1.user_buddha AS userBuddha, t3.role_name AS roleName FROM tbl_user AS t1 LEFT JOIN tbl_character AS t2 ON t1.user_number = t2.character_number LEFT JOIN tbl_role AS t3 ON t2.character_role_uuid = t3.role_uuid LEFT JOIN tbl_cipher AS t4 ON t1.user_number = t4.cipher_number WHERE t4.cipher_number = ? AND t4.cipher_password = ? LIMIT 1;
+2020-11-17 21:38:33.197 DEBUG 19264 --- [http-nio-6161-exec-1] c.inet.code.mapper.UserMapper.getLogin   : ==> Parameters: 2019002126(String), 202cb962ac59075b964b07152d234b70(String)
+2020-11-17 21:38:33.224 DEBUG 19264 --- [http-nio-6161-exec-1] c.inet.code.mapper.UserMapper.getLogin   : <==      Total: 1
+2020-11-17 21:38:39.796 DEBUG 19264 --- [http-nio-6161-exec-4] c.inet.code.mapper.UserMapper.getLogin   : ==>  Preparing: SELECT t1.user_uuid AS userUuid, t1.user_phone AS userPhone, t1.user_number AS userNumber, t1.user_name AS userName, t1.user_class AS userClass, t1.user_buddha AS userBuddha, t3.role_name AS roleName FROM tbl_user AS t1 LEFT JOIN tbl_character AS t2 ON t1.user_number = t2.character_number LEFT JOIN tbl_role AS t3 ON t2.character_role_uuid = t3.role_uuid LEFT JOIN tbl_cipher AS t4 ON t1.user_number = t4.cipher_number WHERE t4.cipher_number = ? AND t4.cipher_password = ? LIMIT 1;
+2020-11-17 21:38:39.796 DEBUG 19264 --- [http-nio-6161-exec-4] c.inet.code.mapper.UserMapper.getLogin   : ==> Parameters: 2019002126(String), 81dc9bdb52d04dc20036dbd8313ed055(String)
+2020-11-17 21:38:39.808 DEBUG 19264 --- [http-nio-6161-exec-4] c.inet.code.mapper.UserMapper.getLogin   : <==      Total: 0

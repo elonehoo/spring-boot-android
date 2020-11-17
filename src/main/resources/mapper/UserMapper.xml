@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.inet.code.mapper.UserMapper">
+    <!--登录请求-->
+    <select id="getLogin" resultType="com.inet.code.entity.User">
+        SELECT
+            t1.user_uuid AS userUuid,
+            t1.user_phone AS userPhone,
+            t1.user_number AS userNumber,
+            t1.user_name AS userName,
+            t1.user_class AS userClass,
+            t1.user_buddha AS userBuddha,
+            t3.role_name AS roleName
+        FROM
+            tbl_user AS t1
+                LEFT JOIN tbl_character AS t2 ON t1.user_number = t2.character_number
+                LEFT JOIN tbl_role AS t3 ON t2.character_role_uuid = t3.role_uuid
+                LEFT JOIN tbl_cipher AS t4 ON t1.user_number = t4.cipher_number
+        WHERE t4.cipher_number = #{account} AND t4.cipher_password = #{password}
+        LIMIT 1;
+    </select>
+</mapper>

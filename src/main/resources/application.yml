@@ -1,0 +1,37 @@
+server:
+  port: 6161
+  servlet:
+    context-path: /android
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://42.192.41.187:3306/android?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: 42.192.41.187
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 500
+        min-idle: 0
+      lettuce:
+        shutdown-timeout: 0
+  session:
+    store-type: redis
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 60MB
+logging:
+  level:
+    root: warn
+    com.inet: debug
+  file:
+    path: log/scratch.log
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml
