@@ -19,4 +19,13 @@ public interface UserMapper extends BaseMapper<User> {
      * @return User实体类
      */
     User getLogin(String account, String password);
+
+    /**
+     * 通过学号判断用户是否存在
+     * @author HCY
+     * @since 2020-11-18
+     * @param number 学号
+     * @return User 实体类
+     */
+    User getByNumber(String number);
 }

@@ -19,4 +19,19 @@
         WHERE t4.cipher_number = #{account} AND t4.cipher_password = #{password}
         LIMIT 1;
     </select>
+    <!--通过学号判断用户是否存在-->
+    <select id="getByNumber" resultType="com.inet.code.entity.User">
+        SELECT
+            user_uuid AS userUuid,
+            user_name AS userName,
+            user_buddha AS userBuddha,
+            user_phone AS userPhone,
+            user_number AS userNumber,
+            user_class AS userClass
+        FROM
+            tbl_user
+        WHERE
+            user_number = #{number}
+            LIMIT 1;
+    </select>
 </mapper>

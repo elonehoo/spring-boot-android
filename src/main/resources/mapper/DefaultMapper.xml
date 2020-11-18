@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.inet.code.mapper.DefaultMapper">
+    <!--获取头像实体类-->
+    <select id="getRandomImagesUrl" resultType="com.inet.code.entity.Default">
+    SELECT
+        t1.default_uuid AS defaultUuid,
+        t1.default_url AS defaultUrl
+    FROM
+        tbl_default AS t1
+        LIMIT #{randomInt},1
+    </select>
+</mapper>
