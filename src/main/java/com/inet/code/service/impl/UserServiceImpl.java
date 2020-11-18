@@ -107,64 +107,10 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
      */
     @Override
     public Result getEnroll(String name, String buddha, String phone, String number, String password , String clazz, String path) {
-        //对于信息的判断
-        //判断学号是否被注册了
-        if (userMapper.getByNumber(number) != null) {
-            return new Result(
-                     Result.STATUS_BAN_403
-                    ,Result.INFO_BAN_403
-                    ,Result.DETAILS_BAN_403
-                    ,"学号已经被注册了"
-                    ,path);
-        }
-        //判断名字是否全部带中文
-        if (!Validator.isChinese(name)){
-            return new Result(
-                    Result.STATUS_ILLEGAL_401
-                    ,Result.INFO_ILLEGAL_401
-                    ,Result.DETAILS_ILLEGAL_401
-                    ,"名字中带有了非中文的字符，请重新输入"
-                    ,path);
-        }
-        //判断头像是否为空，不为应该为头像的URL地址
-        if (StrUtil.hasEmpty(buddha)){
-            buddha = defaultService.getRandomImagesUrl().getDefaultUrl();
-        }
-        //判断电话号码是否正确
-        if (! Validator.isMobile(phone)){
-            return new Result(
-                    Result.STATUS_ILLEGAL_401
-                    ,Result.INFO_ILLEGAL_401
-                    ,Result.DETAILS_ILLEGAL_401
-                    ,"输入的电话号码不正确，请重新输入"
-                    ,path);
-        }
-        //判断学号是否为空
-        if (StrUtil.hasEmpty(number)){
-            return new Result(
-                    Result.STATUS_NOT_FOUND_404
-                    ,Result.INFO_NOT_FOUND_404
-                    ,Result.DETAILS_NOT_FOUND_404
-                    ,"学号没有输入哦！"
-                    ,path);
-        }
-        //判断班级是否为空
-        if(StrUtil.hasEmpty(clazz)){
-            return new Result(
-                    Result.STATUS_NOT_FOUND_404
-                    ,Result.INFO_NOT_FOUND_404
-                    ,Result.DETAILS_NOT_FOUND_404
-                    ,"班级没有输入哦！"
-                    ,path);
-        }
-        //判断密码是否符合规范
-        if(! Validator.isGeneral(password)){
-            return new Result(
-                     Result.STATUS_BAN_403
-                    ,Result.INFO_BAN_403
-                    ,Result.DETAILS_BAN_403
-                    ,"密码不符合规范，需要包含英文字母和数字"
-                    ,path);
+        //判断信息是否正确
+        Result info = getInfo(name, buddha, phone, number, password, clazz, path);
+        if (info != null){
+            return info;
         }
         //进行存储用户
         User user = new User();
@@ -223,6 +169,80 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                 ,Result.DETAILS_OK_200
                 ,"注册成功"
                 ,path);
+    }
+
+    /**
+     * 对于注册的时候用户的信息进行判断
+     * @param name 姓名
+     * @param buddha 头像
+     * @param phone 电话号码
+     * @param number 学号
+     * @param password 密码
+     * @param clazz 班级
+     * @param path URL路径
+     * @return Result风格
+     */
+    private Result getInfo(String name, String buddha, String phone, String number, String password, String clazz, String path) {
+        //对于信息的判断
+        //判断学号是否被注册了
+        if (userMapper.getByNumber(number) != null) {
+            return new Result(
+                    Result.STATUS_BAN_403
+                    ,Result.INFO_BAN_403
+                    ,Result.DETAILS_BAN_403
+                    ,"学号已经被注册了"
+                    ,path);
+        }
+        //判断名字是否全部带中文
+        if (!Validator.isChinese(name)){
+            return new Result(
+                    Result.STATUS_ILLEGAL_401
+                    ,Result.INFO_ILLEGAL_401
+                    ,Result.DETAILS_ILLEGAL_401
+                    ,"名字中带有了非中文的字符，请重新输入"
+                    ,path);
+        }
+        //判断头像是否为空，不为应该为头像的URL地址
+        if (StrUtil.hasEmpty(buddha)){
+            buddha = defaultService.getRandomImagesUrl().getDefaultUrl();
+        }
+        //判断电话号码是否正确
+        if (! Validator.isMobile(phone)){
+            return new Result(
+                    Result.STATUS_ILLEGAL_401
+                    ,Result.INFO_ILLEGAL_401
+                    ,Result.DETAILS_ILLEGAL_401
+                    ,"输入的电话号码不正确，请重新输入"
+                    ,path);
+        }
+        //判断学号是否为空
+        if (StrUtil.hasEmpty(number)){
+            return new Result(
+                    Result.STATUS_NOT_FOUND_404
+                    ,Result.INFO_NOT_FOUND_404
+                    ,Result.DETAILS_NOT_FOUND_404
+                    ,"学号没有输入哦！"
+                    ,path);
+        }
+        //判断班级是否为空
+        if(StrUtil.hasEmpty(clazz)){
+            return new Result(
+                    Result.STATUS_NOT_FOUND_404
+                    ,Result.INFO_NOT_FOUND_404
+                    ,Result.DETAILS_NOT_FOUND_404
+                    ,"班级没有输入哦！"
+                    ,path);
+        }
+        //判断密码是否符合规范
+        if(! Validator.isGeneral(password)){
+            return new Result(
+                    Result.STATUS_BAN_403
+                    ,Result.INFO_BAN_403
+                    ,Result.DETAILS_BAN_403
+                    ,"密码不符合规范，需要包含英文字母和数字"
+                    ,path);
+        }
+        return null;
     }
 
     /**
