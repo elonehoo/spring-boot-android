@@ -40,6 +40,12 @@ public class Registration implements Serializable {
     private String registrationNumber;
 
     /**
+     * 签到用户的签到状态
+     */
+    @TableField(value = "registration_state")
+    private String registrationState;
+
+    /**
      * 签到的开始时间
      */
     @TableField(value = "registration_start")

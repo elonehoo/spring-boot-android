@@ -5,6 +5,7 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.crypto.digest.DigestUtil;
 import com.inet.code.entity.Character;
 import com.inet.code.entity.Cipher;
+import com.inet.code.entity.Registration;
 import com.inet.code.entity.User;
 import com.inet.code.mapper.UserMapper;
 import com.inet.code.service.*;
@@ -48,6 +49,9 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
     @Resource
     private CharacterService characterService;
+
+    @Resource
+    private RegistrationService registrationService;
 
     /**
      * 登录操作
@@ -200,6 +204,19 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         character.setCharacterModification(new Date());
         //进行存储
         characterService.save(character);
+        //存储签到信息
+        Registration registration = new Registration();
+        //设置学号
+        registration.setRegistrationNumber(number);
+        //设置签到的总时长
+        registration.setRegistrationTotal(0L);
+        //存储签到状态为false
+        registration.setRegistrationState("false");
+        //设置创建时间，修改时间
+        registration.setRegistrationCreation(new Date());
+        registration.setRegistrationModification(new Date());
+        //进行存储
+        registrationService.save(registration);
         return new Result(
                  Result.STATUS_OK_200
                 ,Result.INFO_OK_200
@@ -208,6 +225,14 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                 ,path);
     }
 
+    /**
+     * 退出操作
+     * @author HCY
+     * @since 2020-11-18
+     * @param token 令牌
+     * @param path URL路径
+     * @return Result风格
+     */
     @Override
     public Result getExit(String token, String path) {
         redisTemplate.delete(token);

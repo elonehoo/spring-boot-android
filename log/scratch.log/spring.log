@@ -395,3 +395,115 @@ org.apache.shiro.authc.AuthenticationException: 用户不存在
 2020-11-18 11:14:54.763  WARN 4022 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
 2020-11-18 11:14:54.764  WARN 4022 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
 2020-11-18 11:14:54.786  INFO 4022 --- [main] com.inet.InetApplication                 : Started InetApplication in 6.691 seconds (JVM running for 10.41)
+2020-11-18 13:25:25.512  INFO 4293 --- [main] com.inet.InetApplication                 : Starting InetApplication on huchengyedeMacBook-Pro.local with PID 4293 (/Volumes/1/JAVA/spring-boot-android/target/classes started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 13:25:25.524 DEBUG 4293 --- [main] com.inet.InetApplication                 : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 13:25:25.525  INFO 4293 --- [main] com.inet.InetApplication                 : No active profile set, falling back to default profiles: default
+2020-11-18 13:25:34.908  WARN 4293 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:25:34.916  WARN 4293 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:25:34.918  WARN 4293 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:25:34.919  WARN 4293 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:25:34.919  WARN 4293 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:25:34.920  WARN 4293 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:25:34.942  WARN 4293 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:25:34.943  WARN 4293 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:25:35.019  INFO 4293 --- [main] com.inet.InetApplication                 : Started InetApplication in 10.45 seconds (JVM running for 14.4)
+2020-11-18 13:26:21.631  WARN 4293 --- [http-nio-6161-exec-7] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 13:26:23.043 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 13:26:23.091 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002126(String)
+2020-11-18 13:26:23.148 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 0
+2020-11-18 13:26:23.235 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-18 13:26:23.236 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-18 13:26:23.271 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-18 13:26:23.276 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-18 13:26:23.277 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 2(Integer)
+2020-11-18 13:26:23.300 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-18 13:26:23.325 DEBUG 4293 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : ==>  Preparing: INSERT INTO tbl_user ( user_uuid, user_creation, user_class, user_modification, user_phone, user_name, user_buddha, user_number ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2020-11-18 13:26:23.328 DEBUG 4293 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : ==> Parameters: 763dbed5e05f6e5297ee7262ae87cd9a(String), 2020-11-18 13:26:23.301(Timestamp), 计算机1903(String), 2020-11-18 13:26:23.301(Timestamp), 17605818915(String), 晓寻遥(String), https://ss.im5i.com/2020/11/16/2.jpg(String), 2019002126(String)
+2020-11-18 13:26:23.382 DEBUG 4293 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : <==    Updates: 1
+2020-11-18 13:26:23.397 DEBUG 4293 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : ==>  Preparing: INSERT INTO tbl_cipher ( cipher_uuid, cipher_modification, cipher_creation, cipher_password, cipher_number ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 13:26:23.398 DEBUG 4293 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : ==> Parameters: 9cb970766bef7276b563eda1dbdac953(String), 2020-11-18 13:26:23.393(Timestamp), 2020-11-18 13:26:23.393(Timestamp), 202cb962ac59075b964b07152d234b70(String), 2019002126(String)
+2020-11-18 13:26:23.444 DEBUG 4293 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : <==    Updates: 1
+2020-11-18 13:26:23.448 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : ==>  Preparing: SELECT role_uuid AS roleUuid, role_name AS roleName FROM tbl_role WHERE role_name = ? LIMIT 1;
+2020-11-18 13:26:23.449 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : ==> Parameters: student(String)
+2020-11-18 13:26:23.467 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : <==      Total: 1
+2020-11-18 13:26:23.471 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : ==>  Preparing: INSERT INTO tbl_character ( character_uuid, character_modification, character_number, character_role_uuid, character_creation ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 13:26:23.472 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : ==> Parameters: 687e8825d4b0eb31b82a2a1b0f329939(String), 2020-11-18 13:26:23.468(Timestamp), 2019002126(String), c9b10952-35e1-41ce-9963-143f5d481598(String), 2020-11-18 13:26:23.468(Timestamp)
+2020-11-18 13:26:23.528 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : <==    Updates: 1
+2020-11-18 13:26:23.536 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : ==>  Preparing: INSERT INTO tbl_registration ( registration_uuid, registration_modification, registration_creation, registration_number, registration_total ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 13:26:23.540 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : ==> Parameters: 21e37056c124a47d4160d82a6ced2c16(String), 2020-11-18 13:26:23.529(Timestamp), 2020-11-18 13:26:23.529(Timestamp), 2019002126(String), 0(Long)
+2020-11-18 13:26:23.582 DEBUG 4293 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : <==    Updates: 1
+2020-11-18 13:34:53.596  WARN 4293 --- [http-nio-6161-exec-10] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 13:34:53.729 DEBUG 4293 --- [http-nio-6161-exec-10] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 13:34:53.729 DEBUG 4293 --- [http-nio-6161-exec-10] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002126(String)
+2020-11-18 13:34:53.748 DEBUG 4293 --- [http-nio-6161-exec-10] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 1
+2020-11-18 13:35:04.474 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 13:35:04.476 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002127(String)
+2020-11-18 13:35:04.527 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 0
+2020-11-18 13:35:04.553 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-18 13:35:04.553 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-18 13:35:04.580 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-18 13:35:04.583 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-18 13:35:04.583 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 1(Integer)
+2020-11-18 13:35:04.837 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-18 13:35:04.842 DEBUG 4293 --- [http-nio-6161-exec-1] com.inet.code.mapper.UserMapper.insert   : ==>  Preparing: INSERT INTO tbl_user ( user_uuid, user_creation, user_class, user_modification, user_phone, user_name, user_buddha, user_number ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2020-11-18 13:35:04.843 DEBUG 4293 --- [http-nio-6161-exec-1] com.inet.code.mapper.UserMapper.insert   : ==> Parameters: 88509a79cf3888f69b170818b3e3c45f(String), 2020-11-18 13:35:04.839(Timestamp), 计算机1903(String), 2020-11-18 13:35:04.839(Timestamp), 17605818915(String), 哇哈哈(String), https://ss.im5i.com/2020/11/16/1.jpg(String), 2019002127(String)
+2020-11-18 13:35:04.905 DEBUG 4293 --- [http-nio-6161-exec-1] com.inet.code.mapper.UserMapper.insert   : <==    Updates: 1
+2020-11-18 13:35:04.909 DEBUG 4293 --- [http-nio-6161-exec-1] c.inet.code.mapper.CipherMapper.insert   : ==>  Preparing: INSERT INTO tbl_cipher ( cipher_uuid, cipher_modification, cipher_creation, cipher_password, cipher_number ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 13:35:04.910 DEBUG 4293 --- [http-nio-6161-exec-1] c.inet.code.mapper.CipherMapper.insert   : ==> Parameters: 950beb250b3b5003de5a72501e6b22a5(String), 2020-11-18 13:35:04.906(Timestamp), 2020-11-18 13:35:04.906(Timestamp), 202cb962ac59075b964b07152d234b70(String), 2019002127(String)
+2020-11-18 13:35:04.973 DEBUG 4293 --- [http-nio-6161-exec-1] c.inet.code.mapper.CipherMapper.insert   : <==    Updates: 1
+2020-11-18 13:35:04.977 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.mapper.RoleMapper.getByRoleName    : ==>  Preparing: SELECT role_uuid AS roleUuid, role_name AS roleName FROM tbl_role WHERE role_name = ? LIMIT 1;
+2020-11-18 13:35:04.978 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.mapper.RoleMapper.getByRoleName    : ==> Parameters: student(String)
+2020-11-18 13:35:05.023 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.mapper.RoleMapper.getByRoleName    : <==      Total: 1
+2020-11-18 13:35:05.027 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.code.mapper.CharacterMapper.insert   : ==>  Preparing: INSERT INTO tbl_character ( character_uuid, character_modification, character_number, character_role_uuid, character_creation ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 13:35:05.029 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.code.mapper.CharacterMapper.insert   : ==> Parameters: 75fe8599ea46dd1b5403ee555e48513d(String), 2020-11-18 13:35:05.024(Timestamp), 2019002127(String), c9b10952-35e1-41ce-9963-143f5d481598(String), 2020-11-18 13:35:05.024(Timestamp)
+2020-11-18 13:35:06.108 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.code.mapper.CharacterMapper.insert   : <==    Updates: 1
+2020-11-18 13:35:06.113 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.mapper.RegistrationMapper.insert   : ==>  Preparing: INSERT INTO tbl_registration ( registration_uuid, registration_modification, registration_creation, registration_number, registration_total ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 13:35:06.115 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.mapper.RegistrationMapper.insert   : ==> Parameters: 68c28436fd86c0a1c73f402e9910c071(String), 2020-11-18 13:35:06.109(Timestamp), 2020-11-18 13:35:06.109(Timestamp), 2019002127(String), 0(Long)
+2020-11-18 13:35:06.171 DEBUG 4293 --- [http-nio-6161-exec-1] c.i.c.mapper.RegistrationMapper.insert   : <==    Updates: 1
+2020-11-18 13:36:00.772  WARN 4293 --- [http-nio-6161-exec-7] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:00.773  WARN 4293 --- [http-nio-6161-exec-7] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:00.774  WARN 4293 --- [http-nio-6161-exec-7] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:00.774  WARN 4293 --- [http-nio-6161-exec-7] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:00.775  WARN 4293 --- [http-nio-6161-exec-7] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:00.775  WARN 4293 --- [http-nio-6161-exec-7] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:00.786  WARN 4293 --- [http-nio-6161-exec-7] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:00.786  WARN 4293 --- [http-nio-6161-exec-7] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:16.305  INFO 4357 --- [main] com.inet.InetApplication                 : Starting InetApplication on huchengyedeMacBook-Pro.local with PID 4357 (/Volumes/1/JAVA/spring-boot-android/target/classes started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 13:36:16.310 DEBUG 4357 --- [main] com.inet.InetApplication                 : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 13:36:16.312  INFO 4357 --- [main] com.inet.InetApplication                 : No active profile set, falling back to default profiles: default
+2020-11-18 13:36:22.818  WARN 4357 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:22.826  WARN 4357 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:22.827  WARN 4357 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:22.827  WARN 4357 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:22.828  WARN 4357 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:22.828  WARN 4357 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:22.837  WARN 4357 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:22.838  WARN 4357 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 13:36:22.861  INFO 4357 --- [main] com.inet.InetApplication                 : Started InetApplication in 7.997 seconds (JVM running for 12.712)
+2020-11-18 13:37:12.627 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 13:37:12.663 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002125(String)
+2020-11-18 13:37:12.716 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 0
+2020-11-18 13:37:12.786 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-18 13:37:12.786 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-18 13:37:12.815 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-18 13:37:12.819 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-18 13:37:12.819 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 2(Integer)
+2020-11-18 13:37:12.846 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-18 13:37:12.864 DEBUG 4357 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : ==>  Preparing: INSERT INTO tbl_user ( user_uuid, user_creation, user_class, user_modification, user_phone, user_name, user_buddha, user_number ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2020-11-18 13:37:12.867 DEBUG 4357 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : ==> Parameters: ac21efaa804391615fa7e03e2a595658(String), 2020-11-18 13:37:12.847(Timestamp), 计算机1903(String), 2020-11-18 13:37:12.847(Timestamp), 17605818915(String), 笑嘻嘻(String), https://ss.im5i.com/2020/11/16/2.jpg(String), 2019002125(String)
+2020-11-18 13:37:13.231 DEBUG 4357 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : <==    Updates: 1
+2020-11-18 13:37:13.252 DEBUG 4357 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : ==>  Preparing: INSERT INTO tbl_cipher ( cipher_uuid, cipher_modification, cipher_creation, cipher_password, cipher_number ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 13:37:13.253 DEBUG 4357 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : ==> Parameters: 12998bcb7a64960d6dc3c354a1430dc0(String), 2020-11-18 13:37:13.244(Timestamp), 2020-11-18 13:37:13.244(Timestamp), 202cb962ac59075b964b07152d234b70(String), 2019002125(String)
+2020-11-18 13:37:13.320 DEBUG 4357 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : <==    Updates: 1
+2020-11-18 13:37:13.323 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : ==>  Preparing: SELECT role_uuid AS roleUuid, role_name AS roleName FROM tbl_role WHERE role_name = ? LIMIT 1;
+2020-11-18 13:37:13.324 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : ==> Parameters: student(String)
+2020-11-18 13:37:13.351 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : <==      Total: 1
+2020-11-18 13:37:13.354 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : ==>  Preparing: INSERT INTO tbl_character ( character_uuid, character_modification, character_number, character_role_uuid, character_creation ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 13:37:13.356 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : ==> Parameters: fa7b0e310a05d6b27dacb3e8a3eb43a2(String), 2020-11-18 13:37:13.351(Timestamp), 2019002125(String), c9b10952-35e1-41ce-9963-143f5d481598(String), 2020-11-18 13:37:13.351(Timestamp)
+2020-11-18 13:37:13.684 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : <==    Updates: 1
+2020-11-18 13:37:13.689 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : ==>  Preparing: INSERT INTO tbl_registration ( registration_uuid, registration_modification, registration_creation, registration_number, registration_total, registration_state ) VALUES ( ?, ?, ?, ?, ?, ? )
+2020-11-18 13:37:13.691 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : ==> Parameters: d42f5b7abebb56ccbb45f6aa4514cd66(String), 2020-11-18 13:37:13.685(Timestamp), 2020-11-18 13:37:13.685(Timestamp), 2019002125(String), 0(Long), false(String)
+2020-11-18 13:37:13.730 DEBUG 4357 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : <==    Updates: 1
+2020-11-18 13:37:29.091 DEBUG 4357 --- [http-nio-6161-exec-8] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 13:37:29.094 DEBUG 4357 --- [http-nio-6161-exec-8] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002125(String)
+2020-11-18 13:37:29.142 DEBUG 4357 --- [http-nio-6161-exec-8] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 1
