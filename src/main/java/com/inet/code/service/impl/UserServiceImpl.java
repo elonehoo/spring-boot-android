@@ -1,12 +1,13 @@
 package com.inet.code.service.impl;
 
+import cn.hutool.core.date.DateUnit;
+import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.lang.Validator;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.crypto.digest.DigestUtil;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.inet.code.entity.*;
 import com.inet.code.entity.Character;
-import com.inet.code.entity.Cipher;
-import com.inet.code.entity.Registration;
-import com.inet.code.entity.User;
 import com.inet.code.mapper.UserMapper;
 import com.inet.code.service.*;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -52,6 +53,12 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
     @Resource
     private RegistrationService registrationService;
+
+    @Resource
+    private ExhibitionService exhibitionService;
+
+    @Resource
+    private PushService pushService;
 
     /**
      * 登录操作
@@ -112,6 +119,10 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         if (info != null){
             return info;
         }
+        //判断头像是否为空，不为应该为头像的URL地址
+        if (StrUtil.hasEmpty(buddha)){
+            buddha = defaultService.getRandomImagesUrl().getDefaultUrl();
+        }
         //进行存储用户
         User user = new User();
         //设置用户姓名
@@ -157,7 +168,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         //设置签到的总时长
         registration.setRegistrationTotal(0L);
         //存储签到状态为false
-        registration.setRegistrationState("false");
+        registration.setRegistrationState(false);
         //设置创建时间，修改时间
         registration.setRegistrationCreation(new Date());
         registration.setRegistrationModification(new Date());
@@ -202,10 +213,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                     ,"名字中带有了非中文的字符，请重新输入"
                     ,path);
         }
-        //判断头像是否为空，不为应该为头像的URL地址
-        if (StrUtil.hasEmpty(buddha)){
-            buddha = defaultService.getRandomImagesUrl().getDefaultUrl();
-        }
+
         //判断电话号码是否正确
         if (! Validator.isMobile(phone)){
             return new Result(
@@ -261,6 +269,155 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                 ,Result.INFO_OK_200
                 ,Result.DETAILS_OK_200
                 ,"退出成功！"
+                ,path);
+    }
+
+    /**
+     * 签到，签退请求
+     * @author HCY
+     * @since 2020-11-18
+     * @param token 令牌
+     * @param path URL路径
+     * @return Result风格
+     */
+    @Override
+    public Result getSign(String token, String path) {
+        User user = (User) redisTemplate.opsForValue().get(token);
+        //判断user是否为空
+        if(user == null){
+            return new Result(
+                    Result.STATUS_NOT_FOUND_404
+                    ,Result.INFO_NOT_FOUND_404
+                    ,Result.DETAILS_NOT_FOUND_404
+                    ,"登陆的时间已经过了哦！"
+                    ,path);
+        }
+        //获取用户的签到状态
+        Registration registration = registrationService.getByNumber(user.getUserNumber());
+        Result result;
+        if (registration.getRegistrationState()){
+            //签退操作
+            result = signOut(registration,path);
+        }else if (!registration.getRegistrationState()){
+            //签到操作
+            result = signIn(registration,path);
+        }else {
+            result = new Result(
+                    Result.STATUS_ERROR_500
+                    ,Result.INFO_ERROR_500
+                    ,Result.DETAILS_ERROR_500
+                    ,"签到签退操作出现了异常"
+                    ,path);
+        }
+        return result;
+    }
+
+    /**
+     * 展示校园风景
+     * @author HCY
+     * @since 2020-11-18
+     * @param pagination 页数
+     * @param entry 条目数
+     * @param path URL路径
+     * @return Result
+     */
+    @Override
+    public Result getDemonstrate(Integer pagination, Integer entry, String path) {
+        //设置分页条件
+        Page<Exhibition> page = new Page<>(pagination,entry);
+        //设置返回值设置
+        Map<String, Object> map = new HashMap<>(2);
+        map.put("info","请求成功，展示图片");
+        map.put("pages",exhibitionService.page(page));
+        return new Result(
+                 Result.STATUS_OK_200
+                ,Result.INFO_OK_200
+                ,Result.DETAILS_OK_200
+                ,map
+                ,path);
+    }
+
+    /**
+     * 展示信息推送
+     * @author HCY
+     * @since 2020-11-18
+     * @param pagination 页数
+     * @param entry 条目数
+     * @param path URL路径
+     * @return Result风格
+     */
+    @Override
+    public Result getInfo(Integer pagination, Integer entry, String path) {
+        //设置分页条件
+        Page<Push> page = new Page<>(pagination,entry);
+        //设置返回值设置
+        Map<String, Object> map = new HashMap<>(2);
+        map.put("info","请求成功，展示信息");
+        map.put("pages",pushService.page(page));
+        return new Result(
+                Result.STATUS_OK_200
+                ,Result.INFO_OK_200
+                ,Result.DETAILS_OK_200
+                ,map
+                ,path);
+    }
+
+    /**
+     * 签到操作
+     * @author WSQ
+     * @since 2020-11-18
+     * @param registration  签到状态
+     * @param path URL路径
+     * @return Result
+     */
+    private Result signIn(Registration registration, String path) {
+        //设置签到属性
+        registration.setRegistrationState(true);
+        //设置签到的开始时间
+        registration.setRegistrationStart(new Date());
+        //设置记录的修改时间
+        registration.setRegistrationModification(new Date());
+        //进行存储
+        registrationService.updateById(registration);
+        return new Result(
+                Result.STATUS_OK_200
+                ,Result.INFO_OK_200
+                ,Result.DETAILS_OK_200
+                ,"签到成功"
+                ,path);
+    }
+
+    /**
+     * 签退操作
+     * @author WSQ
+     * @since 2020-11-18
+     * @param registration 签到状态
+     * @param path URL路径
+     * @return Result
+     */
+    private Result signOut(Registration registration, String path) {
+        //设置签到属性
+        registration.setRegistrationState(false);
+        //设置签退时间
+        registration.setRegistrationFinish(new Date());
+        //进行签到时间的计算
+        long signTime = DateUtil.between(
+                  registration.getRegistrationStart()
+                , registration.getRegistrationFinish()
+                , DateUnit.MINUTE);
+        //修改总时长
+        registration.setRegistrationTotal(
+                registration.getRegistrationTotal() + signTime );
+        //进行修改
+        registration.setRegistrationModification(new Date());
+        //进行修改
+        registrationService.updateById(registration);
+        return new Result(
+                 Result.STATUS_OK_200
+                ,Result.INFO_OK_200
+                ,Result.DETAILS_OK_200
+                ,"签退成功,本次签到时长为 ： " + signTime + "分钟 ，总时长为 ："
+                            + registration.getRegistrationTotal() + "分钟"
                 ,path);
     }
 }

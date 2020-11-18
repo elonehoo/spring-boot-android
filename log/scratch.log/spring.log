@@ -558,3 +558,1278 @@ org.apache.shiro.authc.AuthenticationException: 用户不存在
 2020-11-18 13:47:05.804 DEBUG 4445 --- [http-nio-6161-exec-4] c.i.c.mapper.RegistrationMapper.insert   : ==>  Preparing: INSERT INTO tbl_registration ( registration_uuid, registration_modification, registration_creation, registration_number, registration_total, registration_state ) VALUES ( ?, ?, ?, ?, ?, ? )
 2020-11-18 13:47:05.806 DEBUG 4445 --- [http-nio-6161-exec-4] c.i.c.mapper.RegistrationMapper.insert   : ==> Parameters: 048003a531dc25322c53efbf1c8888a6(String), 2020-11-18 13:47:05.8(Timestamp), 2020-11-18 13:47:05.8(Timestamp), 2019002128(String), 0(Long), false(String)
 2020-11-18 13:47:05.843 DEBUG 4445 --- [http-nio-6161-exec-4] c.i.c.mapper.RegistrationMapper.insert   : <==    Updates: 1
+2020-11-18 14:07:42.772  INFO 4565 --- [main] com.inet.InetApplication                 : Starting InetApplication on huchengyedeMacBook-Pro.local with PID 4565 (/Volumes/1/JAVA/spring-boot-android/target/classes started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 14:07:42.776 DEBUG 4565 --- [main] com.inet.InetApplication                 : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 14:07:42.777  INFO 4565 --- [main] com.inet.InetApplication                 : No active profile set, falling back to default profiles: default
+2020-11-18 14:07:48.424  WARN 4565 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 14:07:48.448  WARN 4565 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 14:07:48.449  WARN 4565 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 14:07:48.450  WARN 4565 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 14:07:48.450  WARN 4565 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 14:07:48.451  WARN 4565 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 14:07:48.460  WARN 4565 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 14:07:48.461  WARN 4565 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 14:07:48.491  INFO 4565 --- [main] com.inet.InetApplication                 : Started InetApplication in 6.821 seconds (JVM running for 10.898)
+2020-11-18 14:10:43.102  WARN 4565 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 14:21:12.747  WARN 4565 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 14:43:59.081  WARN 4565 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 14:46:45.217  WARN 4565 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 15:30:21.001  WARN 4565 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 15:32:39.846  WARN 4565 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 15:35:42.577  WARN 4565 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 15:39:14.618  WARN 4565 --- [http-nio-6161-exec-1] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 15:39:16.822 DEBUG 4565 --- [http-nio-6161-exec-1] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 15:39:16.926 DEBUG 4565 --- [http-nio-6161-exec-1] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002128(String)
+2020-11-18 15:39:17.052 DEBUG 4565 --- [http-nio-6161-exec-1] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 1
+2020-11-18 15:39:25.863  WARN 4565 --- [http-nio-6161-exec-2] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 15:39:25.972 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 15:39:25.973 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002130(String)
+2020-11-18 15:39:26.005 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 0
+2020-11-18 15:39:26.096 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-18 15:39:26.097 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-18 15:39:26.122 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-18 15:39:26.125 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-18 15:39:26.125 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 0(Integer)
+2020-11-18 15:39:26.149 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-18 15:39:26.326 DEBUG 4565 --- [http-nio-6161-exec-2] com.inet.code.mapper.UserMapper.insert   : ==>  Preparing: INSERT INTO tbl_user ( user_uuid, user_creation, user_class, user_modification, user_phone, user_name, user_buddha, user_number ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2020-11-18 15:39:26.334 DEBUG 4565 --- [http-nio-6161-exec-2] com.inet.code.mapper.UserMapper.insert   : ==> Parameters: f6accfefcc5e66d6567d976d86261af6(String), 2020-11-18 15:39:26.15(Timestamp), 计算机1903(String), 2020-11-18 15:39:26.15(Timestamp), 17605818915(String), 笑嘿嘿(String), (String), 2019002130(String)
+2020-11-18 15:39:26.375 DEBUG 4565 --- [http-nio-6161-exec-2] com.inet.code.mapper.UserMapper.insert   : <==    Updates: 1
+2020-11-18 15:39:26.411 DEBUG 4565 --- [http-nio-6161-exec-2] c.inet.code.mapper.CipherMapper.insert   : ==>  Preparing: INSERT INTO tbl_cipher ( cipher_uuid, cipher_modification, cipher_creation, cipher_password, cipher_number ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 15:39:26.414 DEBUG 4565 --- [http-nio-6161-exec-2] c.inet.code.mapper.CipherMapper.insert   : ==> Parameters: 130f3c393e006c3caece6c8a1f983a7e(String), 2020-11-18 15:39:26.405(Timestamp), 2020-11-18 15:39:26.405(Timestamp), 202cb962ac59075b964b07152d234b70(String), 2019002130(String)
+2020-11-18 15:39:26.464 DEBUG 4565 --- [http-nio-6161-exec-2] c.inet.code.mapper.CipherMapper.insert   : <==    Updates: 1
+2020-11-18 15:39:26.466 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.mapper.RoleMapper.getByRoleName    : ==>  Preparing: SELECT role_uuid AS roleUuid, role_name AS roleName FROM tbl_role WHERE role_name = ? LIMIT 1;
+2020-11-18 15:39:26.467 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.mapper.RoleMapper.getByRoleName    : ==> Parameters: student(String)
+2020-11-18 15:39:26.488 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.mapper.RoleMapper.getByRoleName    : <==      Total: 1
+2020-11-18 15:39:26.492 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.code.mapper.CharacterMapper.insert   : ==>  Preparing: INSERT INTO tbl_character ( character_uuid, character_modification, character_number, character_role_uuid, character_creation ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 15:39:26.494 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.code.mapper.CharacterMapper.insert   : ==> Parameters: 77bb4a5e8981eedcebc0a18a8fdcc537(String), 2020-11-18 15:39:26.489(Timestamp), 2019002130(String), c9b10952-35e1-41ce-9963-143f5d481598(String), 2020-11-18 15:39:26.489(Timestamp)
+2020-11-18 15:39:26.541 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.code.mapper.CharacterMapper.insert   : <==    Updates: 1
+2020-11-18 15:39:26.559 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.mapper.RegistrationMapper.insert   : ==>  Preparing: INSERT INTO tbl_registration ( registration_uuid, registration_modification, registration_creation, registration_number, registration_total, registration_state ) VALUES ( ?, ?, ?, ?, ?, ? )
+2020-11-18 15:39:26.575 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.mapper.RegistrationMapper.insert   : ==> Parameters: 87c909644225f56597a59cd74fbe532e(String), 2020-11-18 15:39:26.542(Timestamp), 2020-11-18 15:39:26.542(Timestamp), 2019002130(String), 0(Long), false(Boolean)
+2020-11-18 15:39:26.623 DEBUG 4565 --- [http-nio-6161-exec-2] c.i.c.mapper.RegistrationMapper.insert   : <==    Updates: 1
+2020-11-18 16:11:55.302  WARN 4565 --- [http-nio-6161-exec-4] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 16:11:56.254  WARN 4565 --- [http-nio-6161-exec-9] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:11:56.255  WARN 4565 --- [http-nio-6161-exec-9] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:11:56.256  WARN 4565 --- [http-nio-6161-exec-9] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:11:56.258  WARN 4565 --- [http-nio-6161-exec-9] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:11:56.260  WARN 4565 --- [http-nio-6161-exec-9] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:11:56.262  WARN 4565 --- [http-nio-6161-exec-9] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:11:56.285  WARN 4565 --- [http-nio-6161-exec-9] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:11:56.286  WARN 4565 --- [http-nio-6161-exec-9] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:12:55.037 DEBUG 4565 --- [http-nio-6161-exec-10] c.inet.code.mapper.UserMapper.getLogin   : ==>  Preparing: SELECT t1.user_uuid AS userUuid, t1.user_phone AS userPhone, t1.user_number AS userNumber, t1.user_name AS userName, t1.user_class AS userClass, t1.user_buddha AS userBuddha, t3.role_name AS roleName FROM tbl_user AS t1 LEFT JOIN tbl_character AS t2 ON t1.user_number = t2.character_number LEFT JOIN tbl_role AS t3 ON t2.character_role_uuid = t3.role_uuid LEFT JOIN tbl_cipher AS t4 ON t1.user_number = t4.cipher_number WHERE t4.cipher_number = ? AND t4.cipher_password = ? LIMIT 1;
+2020-11-18 16:12:55.040 DEBUG 4565 --- [http-nio-6161-exec-10] c.inet.code.mapper.UserMapper.getLogin   : ==> Parameters: 2019002126(String), 202cb962ac59075b964b07152d234b70(String)
+2020-11-18 16:12:55.059 DEBUG 4565 --- [http-nio-6161-exec-10] c.inet.code.mapper.UserMapper.getLogin   : <==      Total: 1
+2020-11-18 16:13:57.609  WARN 4565 --- [http-nio-6161-exec-3] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 16:18:19.668  INFO 4979 --- [main] com.inet.InetApplication                 : Starting InetApplication on huchengyedeMacBook-Pro.local with PID 4979 (/Volumes/1/JAVA/spring-boot-android/target/classes started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 16:18:19.674 DEBUG 4979 --- [main] com.inet.InetApplication                 : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 16:18:19.675  INFO 4979 --- [main] com.inet.InetApplication                 : No active profile set, falling back to default profiles: default
+2020-11-18 16:18:26.286  WARN 4979 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:18:26.294  WARN 4979 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:18:26.295  WARN 4979 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:18:26.295  WARN 4979 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:18:26.296  WARN 4979 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:18:26.296  WARN 4979 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:18:26.303  WARN 4979 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:18:26.304  WARN 4979 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 16:18:26.327  INFO 4979 --- [main] com.inet.InetApplication                 : Started InetApplication in 7.784 seconds (JVM running for 13.289)
+2020-11-18 16:18:32.415 DEBUG 4979 --- [http-nio-6161-exec-1] c.i.c.m.RegistrationMapper.getByNumber   : ==>  Preparing: SELECT registration_uuid AS registrationUuid, registration_number AS registrationNumber, registration_state AS registrationState, registration_start AS registrationStart, registration_finish AS registrationFinish, registration_total AS registrationTotal FROM tbl_registration WHERE registration_number = ?;
+2020-11-18 16:18:32.476 DEBUG 4979 --- [http-nio-6161-exec-1] c.i.c.m.RegistrationMapper.getByNumber   : ==> Parameters: 2019002126(String)
+2020-11-18 16:18:32.521 DEBUG 4979 --- [http-nio-6161-exec-1] c.i.c.m.RegistrationMapper.getByNumber   : <==      Total: 1
+2020-11-18 16:18:32.565 DEBUG 4979 --- [http-nio-6161-exec-1] c.i.c.m.RegistrationMapper.updateById    : ==>  Preparing: UPDATE tbl_registration SET registration_modification=NOW(), registration_number=?, registration_total=?, registration_start=?, registration_state=? WHERE registration_uuid=?
+2020-11-18 16:18:32.570 DEBUG 4979 --- [http-nio-6161-exec-1] c.i.c.m.RegistrationMapper.updateById    : ==> Parameters: 2019002126(String), 0(Long), 2020-11-18 16:18:32.523(Timestamp), true(Boolean), 21e37056c124a47d4160d82a6ced2c16(String)
+2020-11-18 16:18:32.599 DEBUG 4979 --- [http-nio-6161-exec-1] c.i.c.m.RegistrationMapper.updateById    : <==    Updates: 1
+2020-11-18 17:06:04.949  WARN 4979 --- [http-nio-6161-exec-3] o.a.shiro.authc.AbstractAuthenticator    : Authentication failed for token submission [com.inet.code.entity.JwtToken@1cad39e5].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+
+org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: java.net.SocketException: Connection reset
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:74) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.connection.lettuce.LettuceExceptionConverter.convert(LettuceExceptionConverter.java:41) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:42) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.connection.lettuce.LettuceConnection.convertLettuceAccessException(LettuceConnection.java:273) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.convertLettuceAccessException(LettuceStringCommands.java:799) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:68) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.connection.DefaultedRedisConnection.get(DefaultedRedisConnection.java:266) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.core.DefaultValueOperations$1.inRedis(DefaultValueOperations.java:57) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:60) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:228) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:188) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:96) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:53) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at com.inet.code.realm.InetRealm.doGetAuthenticationInfo(InetRealm.java:59) ~[classes/:na]
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256) ~[shiro-core-1.3.2.jar:1.3.2]
+	at com.inet.code.filter.JwtFilter.executeLogin(JwtFilter.java:68) ~[classes/:na]
+	at com.inet.code.filter.JwtFilter.isAccessAllowed(JwtFilter.java:42) ~[classes/:na]
+	at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178) ~[shiro-web-1.3.2.jar:1.3.2]
+	at com.inet.code.filter.JwtFilter.preHandle(JwtFilter.java:101) ~[classes/:na]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+Caused by: io.lettuce.core.RedisException: java.net.SocketException: Connection reset
+	at io.lettuce.core.LettuceFutures.awaitOrCancel(LettuceFutures.java:134) ~[lettuce-core-5.3.4.RELEASE.jar:5.3.4.RELEASE]
+	at io.lettuce.core.FutureSyncInvocationHandler.handleInvocation(FutureSyncInvocationHandler.java:75) ~[lettuce-core-5.3.4.RELEASE.jar:5.3.4.RELEASE]
+	at io.lettuce.core.internal.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:79) ~[lettuce-core-5.3.4.RELEASE.jar:5.3.4.RELEASE]
+	at com.sun.proxy.$Proxy123.get(Unknown Source) ~[na:na]
+	at org.springframework.data.redis.connection.lettuce.LettuceStringCommands.get(LettuceStringCommands.java:66) ~[spring-data-redis-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	... 62 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398) ~[na:na]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.52.Final.jar:4.1.52.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133) ~[netty-buffer-4.1.52.Final.jar:4.1.52.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.52.Final.jar:4.1.52.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.52.Final.jar:4.1.52.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714) ~[netty-transport-4.1.52.Final.jar:4.1.52.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650) ~[netty-transport-4.1.52.Final.jar:4.1.52.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576) ~[netty-transport-4.1.52.Final.jar:4.1.52.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-transport-4.1.52.Final.jar:4.1.52.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) ~[netty-common-4.1.52.Final.jar:4.1.52.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.52.Final.jar:4.1.52.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.52.Final.jar:4.1.52.Final]
+	... 1 common frames omitted
+
+2020-11-18 17:06:06.110 DEBUG 4979 --- [http-nio-6161-exec-3] c.i.c.m.RegistrationMapper.getByNumber   : ==>  Preparing: SELECT registration_uuid AS registrationUuid, registration_number AS registrationNumber, registration_state AS registrationState, registration_start AS registrationStart, registration_finish AS registrationFinish, registration_total AS registrationTotal FROM tbl_registration WHERE registration_number = ?;
+2020-11-18 17:06:06.111 DEBUG 4979 --- [http-nio-6161-exec-3] c.i.c.m.RegistrationMapper.getByNumber   : ==> Parameters: 2019002126(String)
+2020-11-18 17:06:06.129 DEBUG 4979 --- [http-nio-6161-exec-3] c.i.c.m.RegistrationMapper.getByNumber   : <==      Total: 1
+2020-11-18 17:06:06.155 DEBUG 4979 --- [http-nio-6161-exec-3] c.i.c.m.RegistrationMapper.updateById    : ==>  Preparing: UPDATE tbl_registration SET registration_modification=NOW(), registration_number=?, registration_finish=?, registration_total=?, registration_start=?, registration_state=? WHERE registration_uuid=?
+2020-11-18 17:06:06.157 DEBUG 4979 --- [http-nio-6161-exec-3] c.i.c.m.RegistrationMapper.updateById    : ==> Parameters: 2019002126(String), 2020-11-18 17:06:06.13(Timestamp), 47(Long), 2020-11-18 16:18:33.0(Timestamp), false(Boolean), 21e37056c124a47d4160d82a6ced2c16(String)
+2020-11-18 17:06:06.193 DEBUG 4979 --- [http-nio-6161-exec-3] c.i.c.m.RegistrationMapper.updateById    : <==    Updates: 1
+2020-11-18 17:06:11.766 DEBUG 4979 --- [http-nio-6161-exec-4] c.i.c.m.RegistrationMapper.getByNumber   : ==>  Preparing: SELECT registration_uuid AS registrationUuid, registration_number AS registrationNumber, registration_state AS registrationState, registration_start AS registrationStart, registration_finish AS registrationFinish, registration_total AS registrationTotal FROM tbl_registration WHERE registration_number = ?;
+2020-11-18 17:06:11.767 DEBUG 4979 --- [http-nio-6161-exec-4] c.i.c.m.RegistrationMapper.getByNumber   : ==> Parameters: 2019002126(String)
+2020-11-18 17:06:11.792 DEBUG 4979 --- [http-nio-6161-exec-4] c.i.c.m.RegistrationMapper.getByNumber   : <==      Total: 1
+2020-11-18 17:06:11.795 DEBUG 4979 --- [http-nio-6161-exec-4] c.i.c.m.RegistrationMapper.updateById    : ==>  Preparing: UPDATE tbl_registration SET registration_modification=NOW(), registration_number=?, registration_finish=?, registration_total=?, registration_start=?, registration_state=? WHERE registration_uuid=?
+2020-11-18 17:06:11.797 DEBUG 4979 --- [http-nio-6161-exec-4] c.i.c.m.RegistrationMapper.updateById    : ==> Parameters: 2019002126(String), 2020-11-18 17:06:06.0(Timestamp), 47(Long), 2020-11-18 17:06:11.793(Timestamp), true(Boolean), 21e37056c124a47d4160d82a6ced2c16(String)
+2020-11-18 17:06:11.826 DEBUG 4979 --- [http-nio-6161-exec-4] c.i.c.m.RegistrationMapper.updateById    : <==    Updates: 1
+2020-11-18 17:09:22.119 DEBUG 4979 --- [http-nio-6161-exec-6] c.i.c.m.RegistrationMapper.getByNumber   : ==>  Preparing: SELECT registration_uuid AS registrationUuid, registration_number AS registrationNumber, registration_state AS registrationState, registration_start AS registrationStart, registration_finish AS registrationFinish, registration_total AS registrationTotal FROM tbl_registration WHERE registration_number = ?;
+2020-11-18 17:09:22.122 DEBUG 4979 --- [http-nio-6161-exec-6] c.i.c.m.RegistrationMapper.getByNumber   : ==> Parameters: 2019002126(String)
+2020-11-18 17:09:22.139 DEBUG 4979 --- [http-nio-6161-exec-6] c.i.c.m.RegistrationMapper.getByNumber   : <==      Total: 1
+2020-11-18 17:09:22.142 DEBUG 4979 --- [http-nio-6161-exec-6] c.i.c.m.RegistrationMapper.updateById    : ==>  Preparing: UPDATE tbl_registration SET registration_modification=NOW(), registration_number=?, registration_finish=?, registration_total=?, registration_start=?, registration_state=? WHERE registration_uuid=?
+2020-11-18 17:09:22.143 DEBUG 4979 --- [http-nio-6161-exec-6] c.i.c.m.RegistrationMapper.updateById    : ==> Parameters: 2019002126(String), 2020-11-18 17:09:22.14(Timestamp), 50(Long), 2020-11-18 17:06:12.0(Timestamp), false(Boolean), 21e37056c124a47d4160d82a6ced2c16(String)
+2020-11-18 17:09:22.175 DEBUG 4979 --- [http-nio-6161-exec-6] c.i.c.m.RegistrationMapper.updateById    : <==    Updates: 1
+2020-11-18 17:44:41.352  INFO 5247 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on localhost with PID 5247 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 17:44:41.355 DEBUG 5247 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 17:44:41.356  INFO 5247 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-18 17:44:48.569  WARN 5247 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:44:48.580  WARN 5247 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:44:48.581  WARN 5247 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:44:48.582  WARN 5247 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:44:48.583  WARN 5247 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:44:48.584  WARN 5247 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:44:48.592  WARN 5247 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:44:48.593  WARN 5247 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:44:48.618  INFO 5247 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 7.948 seconds (JVM running for 11.447)
+2020-11-18 17:45:25.719  INFO 5256 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on localhost with PID 5256 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 17:45:25.721 DEBUG 5256 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 17:45:25.722  INFO 5256 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-18 17:45:32.738  WARN 5256 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:45:32.746  WARN 5256 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:45:32.746  WARN 5256 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:45:32.747  WARN 5256 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:45:32.748  WARN 5256 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:45:32.749  WARN 5256 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:45:32.755  WARN 5256 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:45:32.756  WARN 5256 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 17:45:32.792  INFO 5256 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 7.753 seconds (JVM running for 10.117)
+2020-11-18 18:15:03.072  INFO 5427 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on localhost with PID 5427 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 18:15:03.076 DEBUG 5427 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 18:15:03.077  INFO 5427 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-18 18:15:15.638  WARN 5427 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:15.653  WARN 5427 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:15.684  WARN 5427 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:15.685  WARN 5427 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:15.686  WARN 5427 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:15.687  WARN 5427 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:15.687  WARN 5427 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:15.688  WARN 5427 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:15.697  WARN 5427 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:15.698  WARN 5427 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:15.728  INFO 5427 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 14.302 seconds (JVM running for 22.725)
+2020-11-18 18:15:31.623  INFO 5443 --- [main] com.inet.InetApplication                 : Starting InetApplication on localhost with PID 5443 (/Volumes/1/JAVA/spring-boot-android/target/classes started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 18:15:31.627 DEBUG 5443 --- [main] com.inet.InetApplication                 : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 18:15:31.628  INFO 5443 --- [main] com.inet.InetApplication                 : No active profile set, falling back to default profiles: default
+2020-11-18 18:15:37.773  WARN 5443 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:37.780  WARN 5443 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:37.802  WARN 5443 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:37.802  WARN 5443 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:37.803  WARN 5443 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:37.804  WARN 5443 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:37.804  WARN 5443 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:37.805  WARN 5443 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:37.814  WARN 5443 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:37.815  WARN 5443 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 18:15:37.837  INFO 5443 --- [main] com.inet.InetApplication                 : Started InetApplication in 7.666 seconds (JVM running for 11.694)
+2020-11-18 18:16:18.716  WARN 5443 --- [http-nio-6161-exec-6] i.s.m.p.AbstractSerializableParameter    : Illegal DefaultValue 10 for parameter type integer
+
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[na:na]
+	at java.base/java.lang.Long.parseLong(Long.java:717) ~[na:na]
+	at java.base/java.lang.Long.valueOf(Long.java:1159) ~[na:na]
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412) ~[swagger-models-1.5.20.jar:1.5.20]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeOptionalFields(MapSerializer.java:786) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:677) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4407) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3661) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(Swagger2ControllerWebMvc.java:106) ~[springfox-swagger2-3.0.0.jar:3.0.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2020-11-18 18:16:18.723  WARN 5443 --- [http-nio-6161-exec-6] i.s.m.p.AbstractSerializableParameter    : Illegal DefaultValue null for parameter type integer
+
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[na:na]
+	at java.base/java.lang.Long.parseLong(Long.java:717) ~[na:na]
+	at java.base/java.lang.Long.valueOf(Long.java:1159) ~[na:na]
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412) ~[swagger-models-1.5.20.jar:1.5.20]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeOptionalFields(MapSerializer.java:786) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:677) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4407) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3661) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(Swagger2ControllerWebMvc.java:106) ~[springfox-swagger2-3.0.0.jar:3.0.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2020-11-18 18:16:30.492 DEBUG 5443 --- [http-nio-6161-exec-7] c.i.c.m.ExhibitionMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM tbl_exhibition
+2020-11-18 18:16:30.536 DEBUG 5443 --- [http-nio-6161-exec-7] c.i.c.m.ExhibitionMapper.selectPage      : ==> Parameters: 
+2020-11-18 18:16:30.621 DEBUG 5443 --- [http-nio-6161-exec-7] c.i.c.m.ExhibitionMapper.selectPage      : ==>  Preparing: SELECT exhibition_uuid,exhibition_images,exhibition_creation,exhibition_city,exhibition_modification FROM tbl_exhibition LIMIT ?,?
+2020-11-18 18:16:30.622 DEBUG 5443 --- [http-nio-6161-exec-7] c.i.c.m.ExhibitionMapper.selectPage      : ==> Parameters: 0(Long), 1(Long)
+2020-11-18 18:16:30.710 DEBUG 5443 --- [http-nio-6161-exec-7] c.i.c.m.ExhibitionMapper.selectPage      : <==      Total: 1
+2020-11-18 18:16:38.385 DEBUG 5443 --- [http-nio-6161-exec-8] c.i.c.m.ExhibitionMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM tbl_exhibition
+2020-11-18 18:16:38.386 DEBUG 5443 --- [http-nio-6161-exec-8] c.i.c.m.ExhibitionMapper.selectPage      : ==> Parameters: 
+2020-11-18 18:16:38.633 DEBUG 5443 --- [http-nio-6161-exec-8] c.i.c.m.ExhibitionMapper.selectPage      : ==>  Preparing: SELECT exhibition_uuid,exhibition_images,exhibition_creation,exhibition_city,exhibition_modification FROM tbl_exhibition LIMIT ?,?
+2020-11-18 18:16:38.634 DEBUG 5443 --- [http-nio-6161-exec-8] c.i.c.m.ExhibitionMapper.selectPage      : ==> Parameters: 1(Long), 1(Long)
+2020-11-18 18:16:38.806 DEBUG 5443 --- [http-nio-6161-exec-8] c.i.c.m.ExhibitionMapper.selectPage      : <==      Total: 1
+2020-11-18 19:02:48.992  INFO 5706 --- [main] com.inet.InetApplication                 : Starting InetApplication on localhost with PID 5706 (/Volumes/1/JAVA/spring-boot-android/target/classes started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 19:02:48.999 DEBUG 5706 --- [main] com.inet.InetApplication                 : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 19:02:49.001  INFO 5706 --- [main] com.inet.InetApplication                 : No active profile set, falling back to default profiles: default
+2020-11-18 19:02:55.311  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.319  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.353  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.354  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.463  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.464  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.484  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.484  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.485  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.485  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.486  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.487  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.494  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.494  WARN 5706 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:02:55.518  INFO 5706 --- [main] com.inet.InetApplication                 : Started InetApplication in 8.039 seconds (JVM running for 12.394)
+2020-11-18 19:03:08.609  WARN 5706 --- [http-nio-6161-exec-6] i.s.m.p.AbstractSerializableParameter    : Illegal DefaultValue 10 for parameter type integer
+
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[na:na]
+	at java.base/java.lang.Long.parseLong(Long.java:717) ~[na:na]
+	at java.base/java.lang.Long.valueOf(Long.java:1159) ~[na:na]
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412) ~[swagger-models-1.5.20.jar:1.5.20]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeOptionalFields(MapSerializer.java:786) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:677) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4407) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3661) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(Swagger2ControllerWebMvc.java:106) ~[springfox-swagger2-3.0.0.jar:3.0.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2020-11-18 19:03:08.616  WARN 5706 --- [http-nio-6161-exec-6] i.s.m.p.AbstractSerializableParameter    : Illegal DefaultValue 1 for parameter type integer
+
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[na:na]
+	at java.base/java.lang.Long.parseLong(Long.java:717) ~[na:na]
+	at java.base/java.lang.Long.valueOf(Long.java:1159) ~[na:na]
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412) ~[swagger-models-1.5.20.jar:1.5.20]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeOptionalFields(MapSerializer.java:786) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:677) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4407) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3661) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(Swagger2ControllerWebMvc.java:106) ~[springfox-swagger2-3.0.0.jar:3.0.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2020-11-18 19:04:06.853 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 19:04:06.922 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002122(String)
+2020-11-18 19:04:07.006 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 0
+2020-11-18 19:04:07.135 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-18 19:04:07.137 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-18 19:04:07.179 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-18 19:04:07.188 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-18 19:04:07.189 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 0(Integer)
+2020-11-18 19:04:07.235 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-18 19:04:07.252 DEBUG 5706 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : ==>  Preparing: INSERT INTO tbl_user ( user_uuid, user_creation, user_class, user_modification, user_phone, user_name, user_buddha, user_number ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2020-11-18 19:04:07.255 DEBUG 5706 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : ==> Parameters: 3c457cf89446053b22e344ad51fb7c61(String), 2020-11-18 19:04:07.236(Timestamp), 计算机1903(String), 2020-11-18 19:04:07.236(Timestamp), 17605818915(String), 乐呵呵(String), (String), 2019002122(String)
+2020-11-18 19:04:07.340 DEBUG 5706 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : <==    Updates: 1
+2020-11-18 19:04:07.369 DEBUG 5706 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : ==>  Preparing: INSERT INTO tbl_cipher ( cipher_uuid, cipher_modification, cipher_creation, cipher_password, cipher_number ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 19:04:07.372 DEBUG 5706 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : ==> Parameters: d95726f1c85b9b938167315b08d202b0(String), 2020-11-18 19:04:07.359(Timestamp), 2020-11-18 19:04:07.359(Timestamp), 202cb962ac59075b964b07152d234b70(String), 2019002122(String)
+2020-11-18 19:04:07.462 DEBUG 5706 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : <==    Updates: 1
+2020-11-18 19:04:07.464 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : ==>  Preparing: SELECT role_uuid AS roleUuid, role_name AS roleName FROM tbl_role WHERE role_name = ? LIMIT 1;
+2020-11-18 19:04:07.465 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : ==> Parameters: student(String)
+2020-11-18 19:04:07.512 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : <==      Total: 1
+2020-11-18 19:04:07.518 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : ==>  Preparing: INSERT INTO tbl_character ( character_uuid, character_modification, character_number, character_role_uuid, character_creation ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 19:04:07.519 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : ==> Parameters: 817d6f5587daefe49e2a44cec5918885(String), 2020-11-18 19:04:07.513(Timestamp), 2019002122(String), c9b10952-35e1-41ce-9963-143f5d481598(String), 2020-11-18 19:04:07.513(Timestamp)
+2020-11-18 19:04:07.602 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : <==    Updates: 1
+2020-11-18 19:04:07.617 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : ==>  Preparing: INSERT INTO tbl_registration ( registration_uuid, registration_modification, registration_creation, registration_number, registration_total, registration_state ) VALUES ( ?, ?, ?, ?, ?, ? )
+2020-11-18 19:04:07.621 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : ==> Parameters: 514e2108cf46d74070f49d07cce3cf1d(String), 2020-11-18 19:04:07.603(Timestamp), 2020-11-18 19:04:07.603(Timestamp), 2019002122(String), 0(Long), false(Boolean)
+2020-11-18 19:04:07.712 DEBUG 5706 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : <==    Updates: 1
+2020-11-18 19:06:24.938 DEBUG 5706 --- [http-nio-6161-exec-10] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 19:06:24.941 DEBUG 5706 --- [http-nio-6161-exec-10] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002122(String)
+2020-11-18 19:06:25.001 DEBUG 5706 --- [http-nio-6161-exec-10] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 1
+2020-11-18 19:06:32.817 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 19:06:32.818 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002120(String)
+2020-11-18 19:06:32.880 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 0
+2020-11-18 19:06:32.900 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-18 19:06:32.902 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-18 19:06:32.953 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-18 19:06:32.957 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-18 19:06:32.958 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 0(Integer)
+2020-11-18 19:06:33.023 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-18 19:06:33.029 DEBUG 5706 --- [http-nio-6161-exec-1] com.inet.code.mapper.UserMapper.insert   : ==>  Preparing: INSERT INTO tbl_user ( user_uuid, user_creation, user_class, user_modification, user_phone, user_name, user_buddha, user_number ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2020-11-18 19:06:33.040 DEBUG 5706 --- [http-nio-6161-exec-1] com.inet.code.mapper.UserMapper.insert   : ==> Parameters: 4b4d6fcb8a5ae7c4cfc06d7e13e2034d(String), 2020-11-18 19:06:33.025(Timestamp), 计算机1903(String), 2020-11-18 19:06:33.025(Timestamp), 17605818915(String), 乐呵呵(String), https://ss.im5i.com/2020/11/16/5cdbecc5e7bce720f6f0117b.jpg(String), 2019002120(String)
+2020-11-18 19:06:33.143 DEBUG 5706 --- [http-nio-6161-exec-1] com.inet.code.mapper.UserMapper.insert   : <==    Updates: 1
+2020-11-18 19:06:33.148 DEBUG 5706 --- [http-nio-6161-exec-1] c.inet.code.mapper.CipherMapper.insert   : ==>  Preparing: INSERT INTO tbl_cipher ( cipher_uuid, cipher_modification, cipher_creation, cipher_password, cipher_number ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 19:06:33.150 DEBUG 5706 --- [http-nio-6161-exec-1] c.inet.code.mapper.CipherMapper.insert   : ==> Parameters: 869c37d2f5f9f2e024055d07b97d273f(String), 2020-11-18 19:06:33.144(Timestamp), 2020-11-18 19:06:33.144(Timestamp), 202cb962ac59075b964b07152d234b70(String), 2019002120(String)
+2020-11-18 19:06:33.251 DEBUG 5706 --- [http-nio-6161-exec-1] c.inet.code.mapper.CipherMapper.insert   : <==    Updates: 1
+2020-11-18 19:06:33.256 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.mapper.RoleMapper.getByRoleName    : ==>  Preparing: SELECT role_uuid AS roleUuid, role_name AS roleName FROM tbl_role WHERE role_name = ? LIMIT 1;
+2020-11-18 19:06:33.257 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.mapper.RoleMapper.getByRoleName    : ==> Parameters: student(String)
+2020-11-18 19:06:33.314 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.mapper.RoleMapper.getByRoleName    : <==      Total: 1
+2020-11-18 19:06:33.332 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.code.mapper.CharacterMapper.insert   : ==>  Preparing: INSERT INTO tbl_character ( character_uuid, character_modification, character_number, character_role_uuid, character_creation ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 19:06:33.339 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.code.mapper.CharacterMapper.insert   : ==> Parameters: 93db801093029ebd958777242ee8b662(String), 2020-11-18 19:06:33.315(Timestamp), 2019002120(String), c9b10952-35e1-41ce-9963-143f5d481598(String), 2020-11-18 19:06:33.315(Timestamp)
+2020-11-18 19:06:33.440 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.code.mapper.CharacterMapper.insert   : <==    Updates: 1
+2020-11-18 19:06:33.445 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.mapper.RegistrationMapper.insert   : ==>  Preparing: INSERT INTO tbl_registration ( registration_uuid, registration_modification, registration_creation, registration_number, registration_total, registration_state ) VALUES ( ?, ?, ?, ?, ?, ? )
+2020-11-18 19:06:33.448 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.mapper.RegistrationMapper.insert   : ==> Parameters: 0ff6dc9255cb6ce41591434d3cabe80f(String), 2020-11-18 19:06:33.441(Timestamp), 2020-11-18 19:06:33.441(Timestamp), 2019002120(String), 0(Long), false(Boolean)
+2020-11-18 19:06:33.536 DEBUG 5706 --- [http-nio-6161-exec-1] c.i.c.mapper.RegistrationMapper.insert   : <==    Updates: 1
+2020-11-18 19:08:22.257  WARN 5706 --- [http-nio-6161-exec-2] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 19:08:22.713 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 19:08:22.714 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002129(String)
+2020-11-18 19:08:22.779 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 0
+2020-11-18 19:08:22.789 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-18 19:08:22.790 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-18 19:08:22.835 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-18 19:08:22.837 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-18 19:08:22.839 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 1(Integer)
+2020-11-18 19:08:22.891 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-18 19:08:22.894 DEBUG 5706 --- [http-nio-6161-exec-2] com.inet.code.mapper.UserMapper.insert   : ==>  Preparing: INSERT INTO tbl_user ( user_uuid, user_creation, user_class, user_modification, user_phone, user_name, user_buddha, user_number ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2020-11-18 19:08:22.896 DEBUG 5706 --- [http-nio-6161-exec-2] com.inet.code.mapper.UserMapper.insert   : ==> Parameters: 59411708fa8921a0163e44af704aa082(String), 2020-11-18 19:08:22.892(Timestamp), 计算机1903(String), 2020-11-18 19:08:22.892(Timestamp), 17605818915(String), 晓寻遥(String), https://ss.im5i.com/2020/11/16/1.jpg(String), 2019002129(String)
+2020-11-18 19:08:23.037 DEBUG 5706 --- [http-nio-6161-exec-2] com.inet.code.mapper.UserMapper.insert   : <==    Updates: 1
+2020-11-18 19:08:23.052 DEBUG 5706 --- [http-nio-6161-exec-2] c.inet.code.mapper.CipherMapper.insert   : ==>  Preparing: INSERT INTO tbl_cipher ( cipher_uuid, cipher_modification, cipher_creation, cipher_password, cipher_number ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 19:08:23.054 DEBUG 5706 --- [http-nio-6161-exec-2] c.inet.code.mapper.CipherMapper.insert   : ==> Parameters: 393c6d8621adc9922f82720729d6c05b(String), 2020-11-18 19:08:23.039(Timestamp), 2020-11-18 19:08:23.039(Timestamp), 202cb962ac59075b964b07152d234b70(String), 2019002129(String)
+2020-11-18 19:08:23.162 DEBUG 5706 --- [http-nio-6161-exec-2] c.inet.code.mapper.CipherMapper.insert   : <==    Updates: 1
+2020-11-18 19:08:23.164 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.mapper.RoleMapper.getByRoleName    : ==>  Preparing: SELECT role_uuid AS roleUuid, role_name AS roleName FROM tbl_role WHERE role_name = ? LIMIT 1;
+2020-11-18 19:08:23.165 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.mapper.RoleMapper.getByRoleName    : ==> Parameters: student(String)
+2020-11-18 19:08:23.213 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.mapper.RoleMapper.getByRoleName    : <==      Total: 1
+2020-11-18 19:08:23.216 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.code.mapper.CharacterMapper.insert   : ==>  Preparing: INSERT INTO tbl_character ( character_uuid, character_modification, character_number, character_role_uuid, character_creation ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 19:08:23.217 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.code.mapper.CharacterMapper.insert   : ==> Parameters: d0c11a16f4f691d195af9976635178ac(String), 2020-11-18 19:08:23.214(Timestamp), 2019002129(String), c9b10952-35e1-41ce-9963-143f5d481598(String), 2020-11-18 19:08:23.214(Timestamp)
+2020-11-18 19:08:23.323 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.code.mapper.CharacterMapper.insert   : <==    Updates: 1
+2020-11-18 19:08:23.329 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.mapper.RegistrationMapper.insert   : ==>  Preparing: INSERT INTO tbl_registration ( registration_uuid, registration_modification, registration_creation, registration_number, registration_total, registration_state ) VALUES ( ?, ?, ?, ?, ?, ? )
+2020-11-18 19:08:23.332 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.mapper.RegistrationMapper.insert   : ==> Parameters: 4a901dcedb2a49644062b6404e354a0f(String), 2020-11-18 19:08:23.324(Timestamp), 2020-11-18 19:08:23.324(Timestamp), 2019002129(String), 0(Long), false(Boolean)
+2020-11-18 19:08:23.423 DEBUG 5706 --- [http-nio-6161-exec-2] c.i.c.mapper.RegistrationMapper.insert   : <==    Updates: 1
+2020-11-18 19:10:05.345 DEBUG 5706 --- [http-nio-6161-exec-5] c.inet.code.mapper.UserMapper.getLogin   : ==>  Preparing: SELECT t1.user_uuid AS userUuid, t1.user_phone AS userPhone, t1.user_number AS userNumber, t1.user_name AS userName, t1.user_class AS userClass, t1.user_buddha AS userBuddha, t3.role_name AS roleName FROM tbl_user AS t1 LEFT JOIN tbl_character AS t2 ON t1.user_number = t2.character_number LEFT JOIN tbl_role AS t3 ON t2.character_role_uuid = t3.role_uuid LEFT JOIN tbl_cipher AS t4 ON t1.user_number = t4.cipher_number WHERE t4.cipher_number = ? AND t4.cipher_password = ? LIMIT 1;
+2020-11-18 19:10:05.346 DEBUG 5706 --- [http-nio-6161-exec-5] c.inet.code.mapper.UserMapper.getLogin   : ==> Parameters: 2019002126(String), 202cb962ac59075b964b07152d234b70(String)
+2020-11-18 19:10:05.392 DEBUG 5706 --- [http-nio-6161-exec-5] c.inet.code.mapper.UserMapper.getLogin   : <==      Total: 0
+2020-11-18 19:10:25.935 DEBUG 5706 --- [http-nio-6161-exec-6] c.inet.code.mapper.UserMapper.getLogin   : ==>  Preparing: SELECT t1.user_uuid AS userUuid, t1.user_phone AS userPhone, t1.user_number AS userNumber, t1.user_name AS userName, t1.user_class AS userClass, t1.user_buddha AS userBuddha, t3.role_name AS roleName FROM tbl_user AS t1 LEFT JOIN tbl_character AS t2 ON t1.user_number = t2.character_number LEFT JOIN tbl_role AS t3 ON t2.character_role_uuid = t3.role_uuid LEFT JOIN tbl_cipher AS t4 ON t1.user_number = t4.cipher_number WHERE t4.cipher_number = ? AND t4.cipher_password = ? LIMIT 1;
+2020-11-18 19:10:25.936 DEBUG 5706 --- [http-nio-6161-exec-6] c.inet.code.mapper.UserMapper.getLogin   : ==> Parameters: 2019002126(String), 202cb962ac59075b964b07152d234b70(String)
+2020-11-18 19:10:26.001 DEBUG 5706 --- [http-nio-6161-exec-6] c.inet.code.mapper.UserMapper.getLogin   : <==      Total: 0
+2020-11-18 19:10:49.352  INFO 5741 --- [main] com.inet.InetApplication                 : Starting InetApplication on localhost with PID 5741 (/Volumes/1/JAVA/spring-boot-android/target/classes started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 19:10:49.355 DEBUG 5741 --- [main] com.inet.InetApplication                 : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 19:10:49.358  INFO 5741 --- [main] com.inet.InetApplication                 : No active profile set, falling back to default profiles: default
+2020-11-18 19:10:55.546  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.552  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.581  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.581  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.682  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.683  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.703  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.703  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.704  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.705  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.705  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.706  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.713  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.713  WARN 5741 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:10:55.736  INFO 5741 --- [main] com.inet.InetApplication                 : Started InetApplication in 7.799 seconds (JVM running for 13.102)
+2020-11-18 19:11:01.230 DEBUG 5741 --- [http-nio-6161-exec-1] c.inet.code.mapper.UserMapper.getLogin   : ==>  Preparing: SELECT t1.user_uuid AS userUuid, t1.user_phone AS userPhone, t1.user_number AS userNumber, t1.user_name AS userName, t1.user_class AS userClass, t1.user_buddha AS userBuddha, t3.role_name AS roleName FROM tbl_user AS t1 LEFT JOIN tbl_character AS t2 ON t1.user_number = t2.character_number LEFT JOIN tbl_role AS t3 ON t2.character_role_uuid = t3.role_uuid LEFT JOIN tbl_cipher AS t4 ON t1.user_number = t4.cipher_number WHERE t4.cipher_number = ? AND t4.cipher_password = ? LIMIT 1;
+2020-11-18 19:11:01.263 DEBUG 5741 --- [http-nio-6161-exec-1] c.inet.code.mapper.UserMapper.getLogin   : ==> Parameters: 2019002126(String), 202cb962ac59075b964b07152d234b70(String)
+2020-11-18 19:11:01.331 DEBUG 5741 --- [http-nio-6161-exec-1] c.inet.code.mapper.UserMapper.getLogin   : <==      Total: 0
+2020-11-18 19:11:17.621 DEBUG 5741 --- [http-nio-6161-exec-2] c.inet.code.mapper.UserMapper.getLogin   : ==>  Preparing: SELECT t1.user_uuid AS userUuid, t1.user_phone AS userPhone, t1.user_number AS userNumber, t1.user_name AS userName, t1.user_class AS userClass, t1.user_buddha AS userBuddha, t3.role_name AS roleName FROM tbl_user AS t1 LEFT JOIN tbl_character AS t2 ON t1.user_number = t2.character_number LEFT JOIN tbl_role AS t3 ON t2.character_role_uuid = t3.role_uuid LEFT JOIN tbl_cipher AS t4 ON t1.user_number = t4.cipher_number WHERE t4.cipher_number = ? AND t4.cipher_password = ? LIMIT 1;
+2020-11-18 19:11:17.625 DEBUG 5741 --- [http-nio-6161-exec-2] c.inet.code.mapper.UserMapper.getLogin   : ==> Parameters: 2019002129(String), 202cb962ac59075b964b07152d234b70(String)
+2020-11-18 19:11:17.683 DEBUG 5741 --- [http-nio-6161-exec-2] c.inet.code.mapper.UserMapper.getLogin   : <==      Total: 1
+2020-11-18 19:11:18.325 DEBUG 5741 --- [http-nio-6161-exec-3] c.inet.code.mapper.UserMapper.getLogin   : ==>  Preparing: SELECT t1.user_uuid AS userUuid, t1.user_phone AS userPhone, t1.user_number AS userNumber, t1.user_name AS userName, t1.user_class AS userClass, t1.user_buddha AS userBuddha, t3.role_name AS roleName FROM tbl_user AS t1 LEFT JOIN tbl_character AS t2 ON t1.user_number = t2.character_number LEFT JOIN tbl_role AS t3 ON t2.character_role_uuid = t3.role_uuid LEFT JOIN tbl_cipher AS t4 ON t1.user_number = t4.cipher_number WHERE t4.cipher_number = ? AND t4.cipher_password = ? LIMIT 1;
+2020-11-18 19:11:18.330 DEBUG 5741 --- [http-nio-6161-exec-3] c.inet.code.mapper.UserMapper.getLogin   : ==> Parameters: 2019002129(String), 202cb962ac59075b964b07152d234b70(String)
+2020-11-18 19:11:18.397 DEBUG 5741 --- [http-nio-6161-exec-3] c.inet.code.mapper.UserMapper.getLogin   : <==      Total: 1
+2020-11-18 19:12:18.849 DEBUG 5741 --- [http-nio-6161-exec-4] com.inet.code.mapper.PushMapper.insert   : ==>  Preparing: INSERT INTO tbl_push ( push_uuid, push_headline, push_modification, push_content, push_creation ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 19:12:18.853 DEBUG 5741 --- [http-nio-6161-exec-4] com.inet.code.mapper.PushMapper.insert   : ==> Parameters: 865f616e5b0bf1cca6f7d6281b1bce6f(String), 明天校园规划(String), 2020-11-18 19:12:18.756(Timestamp), 明天放假(String), 2020-11-18 19:12:18.756(Timestamp)
+2020-11-18 19:12:18.942 DEBUG 5741 --- [http-nio-6161-exec-4] com.inet.code.mapper.PushMapper.insert   : <==    Updates: 1
+2020-11-18 19:13:24.914 DEBUG 5741 --- [http-nio-6161-exec-6] c.i.code.mapper.ExhibitionMapper.insert  : ==>  Preparing: INSERT INTO tbl_exhibition ( exhibition_uuid, exhibition_images, exhibition_creation, exhibition_city, exhibition_modification ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 19:13:24.916 DEBUG 5741 --- [http-nio-6161-exec-6] c.i.code.mapper.ExhibitionMapper.insert  : ==> Parameters: ad387bd1e9ea650ab308eb2cfff528b8(String), https://ss.im5i.com/2020/11/16/3.jpg(String), 2020-11-18 19:13:24.861(Timestamp), 社团宣传图(String), 2020-11-18 19:13:24.861(Timestamp)
+2020-11-18 19:13:24.992 DEBUG 5741 --- [http-nio-6161-exec-6] c.i.code.mapper.ExhibitionMapper.insert  : <==    Updates: 1
+2020-11-18 19:21:03.054  INFO 5818 --- [main] com.inet.InetApplication                 : Starting InetApplication on localhost with PID 5818 (/Volumes/1/JAVA/spring-boot-android/target/classes started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 19:21:03.060 DEBUG 5818 --- [main] com.inet.InetApplication                 : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 19:21:03.061  INFO 5818 --- [main] com.inet.InetApplication                 : No active profile set, falling back to default profiles: default
+2020-11-18 19:21:08.593  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.600  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.629  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.630  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.735  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.736  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.747  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.748  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.761  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.762  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.762  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.763  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.763  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.764  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.771  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.771  WARN 5818 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:21:08.794  INFO 5818 --- [main] com.inet.InetApplication                 : Started InetApplication in 6.656 seconds (JVM running for 10.389)
+2020-11-18 19:22:02.018  WARN 5818 --- [rebel-change-detector-thread] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.inet.code.mapper]' package. Please check your configuration.
+2020-11-18 19:22:12.367  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.370  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.391  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.393  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.508  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.509  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.527  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.527  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.549  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.550  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.551  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.552  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.553  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.553  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.562  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.563  WARN 5818 --- [http-nio-6161-exec-6] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 19:22:12.783  WARN 5818 --- [http-nio-6161-exec-6] i.s.m.p.AbstractSerializableParameter    : Illegal DefaultValue 10 for parameter type integer
+
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[na:na]
+	at java.base/java.lang.Long.parseLong(Long.java:717) ~[na:na]
+	at java.base/java.lang.Long.valueOf(Long.java:1159) ~[na:na]
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412) ~[swagger-models-1.5.20.jar:1.5.20]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeOptionalFields(MapSerializer.java:786) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:677) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4407) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3661) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(Swagger2ControllerWebMvc.java:106) ~[springfox-swagger2-3.0.0.jar:3.0.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2020-11-18 19:22:12.791  WARN 5818 --- [http-nio-6161-exec-6] i.s.m.p.AbstractSerializableParameter    : Illegal DefaultValue 1 for parameter type integer
+
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[na:na]
+	at java.base/java.lang.Long.parseLong(Long.java:717) ~[na:na]
+	at java.base/java.lang.Long.valueOf(Long.java:1159) ~[na:na]
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412) ~[swagger-models-1.5.20.jar:1.5.20]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeOptionalFields(MapSerializer.java:786) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:677) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4407) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3661) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(Swagger2ControllerWebMvc.java:106) ~[springfox-swagger2-3.0.0.jar:3.0.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2020-11-18 19:22:12.804  WARN 5818 --- [http-nio-6161-exec-6] i.s.m.p.AbstractSerializableParameter    : Illegal DefaultValue 10 for parameter type integer
+
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[na:na]
+	at java.base/java.lang.Long.parseLong(Long.java:717) ~[na:na]
+	at java.base/java.lang.Long.valueOf(Long.java:1159) ~[na:na]
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412) ~[swagger-models-1.5.20.jar:1.5.20]
+	at jdk.internal.reflect.GeneratedMethodAccessor110.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeOptionalFields(MapSerializer.java:786) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:677) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4407) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3661) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(Swagger2ControllerWebMvc.java:106) ~[springfox-swagger2-3.0.0.jar:3.0.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2020-11-18 19:22:12.807  WARN 5818 --- [http-nio-6161-exec-6] i.s.m.p.AbstractSerializableParameter    : Illegal DefaultValue 1 for parameter type integer
+
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[na:na]
+	at java.base/java.lang.Long.parseLong(Long.java:717) ~[na:na]
+	at java.base/java.lang.Long.valueOf(Long.java:1159) ~[na:na]
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412) ~[swagger-models-1.5.20.jar:1.5.20]
+	at jdk.internal.reflect.GeneratedMethodAccessor110.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:689) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeOptionalFields(MapSerializer.java:786) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:677) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper._writeValueAndClose(ObjectMapper.java:4407) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3661) ~[jackson-databind-2.11.2.jar:2.11.2]
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(Swagger2ControllerWebMvc.java:106) ~[springfox-swagger2-3.0.0.jar:3.0.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.38.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2020-11-18 19:22:40.759 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : ==>  Preparing: SELECT user_uuid AS userUuid, user_name AS userName, user_buddha AS userBuddha, user_phone AS userPhone, user_number AS userNumber, user_class AS userClass FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-18 19:22:40.831 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : ==> Parameters: 2019002126(String)
+2020-11-18 19:22:40.945 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.code.mapper.UserMapper.getByNumber   : <==      Total: 0
+2020-11-18 19:22:41.107 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-18 19:22:41.108 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-18 19:22:41.164 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-18 19:22:41.168 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-18 19:22:41.169 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 2(Integer)
+2020-11-18 19:22:41.213 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-18 19:22:41.244 DEBUG 5818 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : ==>  Preparing: INSERT INTO tbl_user ( user_uuid, user_creation, user_class, user_modification, user_phone, user_name, user_buddha, user_number ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2020-11-18 19:22:41.250 DEBUG 5818 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : ==> Parameters: 6f0052282636d9db18a3a3bc2c26e06f(String), 2020-11-18 19:22:41.214(Timestamp), 计算机1903(String), 2020-11-18 19:22:41.214(Timestamp), 17605818915(String), 笑嘻嘻(String), https://ss.im5i.com/2020/11/16/2.jpg(String), 2019002126(String)
+2020-11-18 19:22:41.351 DEBUG 5818 --- [http-nio-6161-exec-7] com.inet.code.mapper.UserMapper.insert   : <==    Updates: 1
+2020-11-18 19:22:41.394 DEBUG 5818 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : ==>  Preparing: INSERT INTO tbl_cipher ( cipher_uuid, cipher_modification, cipher_creation, cipher_password, cipher_number ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 19:22:41.397 DEBUG 5818 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : ==> Parameters: 3474928355852f734f3f02fa9504fe65(String), 2020-11-18 19:22:41.382(Timestamp), 2020-11-18 19:22:41.382(Timestamp), 202cb962ac59075b964b07152d234b70(String), 2019002126(String)
+2020-11-18 19:22:41.494 DEBUG 5818 --- [http-nio-6161-exec-7] c.inet.code.mapper.CipherMapper.insert   : <==    Updates: 1
+2020-11-18 19:22:41.496 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : ==>  Preparing: SELECT role_uuid AS roleUuid, role_name AS roleName FROM tbl_role WHERE role_name = ? LIMIT 1;
+2020-11-18 19:22:41.497 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : ==> Parameters: student(String)
+2020-11-18 19:22:41.543 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.mapper.RoleMapper.getByRoleName    : <==      Total: 1
+2020-11-18 19:22:41.547 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : ==>  Preparing: INSERT INTO tbl_character ( character_uuid, character_modification, character_number, character_role_uuid, character_creation ) VALUES ( ?, ?, ?, ?, ? )
+2020-11-18 19:22:41.548 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : ==> Parameters: 71f764135f0b91b97b02f084804bda80(String), 2020-11-18 19:22:41.543(Timestamp), 2019002126(String), c9b10952-35e1-41ce-9963-143f5d481598(String), 2020-11-18 19:22:41.543(Timestamp)
+2020-11-18 19:22:41.652 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.code.mapper.CharacterMapper.insert   : <==    Updates: 1
+2020-11-18 19:22:41.659 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : ==>  Preparing: INSERT INTO tbl_registration ( registration_uuid, registration_modification, registration_creation, registration_number, registration_total, registration_state ) VALUES ( ?, ?, ?, ?, ?, ? )
+2020-11-18 19:22:41.663 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : ==> Parameters: 9375f2a72cb2d72416e262f8b28e8d77(String), 2020-11-18 19:22:41.653(Timestamp), 2020-11-18 19:22:41.653(Timestamp), 2019002126(String), 0(Long), false(Boolean)
+2020-11-18 19:22:41.752 DEBUG 5818 --- [http-nio-6161-exec-7] c.i.c.mapper.RegistrationMapper.insert   : <==    Updates: 1
+2020-11-18 19:22:58.796 DEBUG 5818 --- [http-nio-6161-exec-8] c.inet.code.mapper.UserMapper.getLogin   : ==>  Preparing: SELECT t1.user_uuid AS userUuid, t1.user_phone AS userPhone, t1.user_number AS userNumber, t1.user_name AS userName, t1.user_class AS userClass, t1.user_buddha AS userBuddha, t3.role_name AS roleName FROM tbl_user AS t1 LEFT JOIN tbl_character AS t2 ON t1.user_number = t2.character_number LEFT JOIN tbl_role AS t3 ON t2.character_role_uuid = t3.role_uuid LEFT JOIN tbl_cipher AS t4 ON t1.user_number = t4.cipher_number WHERE t4.cipher_number = ? AND t4.cipher_password = ? LIMIT 1;
+2020-11-18 19:22:58.797 DEBUG 5818 --- [http-nio-6161-exec-8] c.inet.code.mapper.UserMapper.getLogin   : ==> Parameters: 2019002126(String), 202cb962ac59075b964b07152d234b70(String)
+2020-11-18 19:22:58.853 DEBUG 5818 --- [http-nio-6161-exec-8] c.inet.code.mapper.UserMapper.getLogin   : <==      Total: 1
+2020-11-18 19:23:21.826 DEBUG 5818 --- [http-nio-6161-exec-10] c.i.code.mapper.PushMapper.selectPage    : ==>  Preparing: SELECT COUNT(1) FROM tbl_push
+2020-11-18 19:23:21.827 DEBUG 5818 --- [http-nio-6161-exec-10] c.i.code.mapper.PushMapper.selectPage    : ==> Parameters: 
+2020-11-18 19:23:21.899 DEBUG 5818 --- [http-nio-6161-exec-10] c.i.code.mapper.PushMapper.selectPage    : ==>  Preparing: SELECT push_uuid,push_headline,push_modification,push_content,push_creation FROM tbl_push LIMIT ?,?
+2020-11-18 19:23:21.900 DEBUG 5818 --- [http-nio-6161-exec-10] c.i.code.mapper.PushMapper.selectPage    : ==> Parameters: 0(Long), 10(Long)
+2020-11-18 19:23:21.953 DEBUG 5818 --- [http-nio-6161-exec-10] c.i.code.mapper.PushMapper.selectPage    : <==      Total: 1
+2020-11-18 19:23:35.013 DEBUG 5818 --- [http-nio-6161-exec-1] c.i.c.m.ExhibitionMapper.selectPage      : ==>  Preparing: SELECT COUNT(1) FROM tbl_exhibition
+2020-11-18 19:23:35.014 DEBUG 5818 --- [http-nio-6161-exec-1] c.i.c.m.ExhibitionMapper.selectPage      : ==> Parameters: 
+2020-11-18 19:23:35.051 DEBUG 5818 --- [http-nio-6161-exec-1] c.i.c.m.ExhibitionMapper.selectPage      : ==>  Preparing: SELECT exhibition_uuid,exhibition_images,exhibition_creation,exhibition_city,exhibition_modification FROM tbl_exhibition LIMIT ?,?
+2020-11-18 19:23:35.051 DEBUG 5818 --- [http-nio-6161-exec-1] c.i.c.m.ExhibitionMapper.selectPage      : ==> Parameters: 0(Long), 10(Long)
+2020-11-18 19:23:35.098 DEBUG 5818 --- [http-nio-6161-exec-1] c.i.c.m.ExhibitionMapper.selectPage      : <==      Total: 3

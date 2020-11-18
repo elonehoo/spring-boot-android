@@ -13,7 +13,7 @@ import lombok.experimental.Accessors;
 
 /**
  * <p>
- * 
+ * 展示图片
  * </p>
  *
  * @author HCY

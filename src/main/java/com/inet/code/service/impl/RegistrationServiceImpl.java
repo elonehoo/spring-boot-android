@@ -6,6 +6,8 @@ import com.inet.code.service.RegistrationService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 /**
  * <p>
  *  服务实现类
@@ -17,4 +19,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class RegistrationServiceImpl extends ServiceImpl<RegistrationMapper, Registration> implements RegistrationService {
 
+    @Resource
+    private RegistrationMapper registrationMapper;
+
+    @Override
+    public Registration getByNumber(String userNumber) {
+        return registrationMapper.getByNumber(userNumber);
+    }
 }

@@ -102,5 +102,57 @@ public class UserController {
                 ,"/android/user/exit");
     }
 
+    /**
+     * 签到，签退请求
+     * @author HCY
+     * @since 2020-11-18
+     * @param token 令牌
+     * @return Result
+     */
+    @ApiOperation("签到，签退请求")
+    @GetMapping("/signIn")
+    @RequiresRoles(value = {"student"})
+    public Result getSignIn(@RequestHeader(value = "Token",defaultValue = "") String token){
+        return userService.getSign(token,"/android/user/enroll");
+    }
 
+    /**
+     * 校园风景展示
+     * @author HCY
+     * @since 2020-11-18
+     * @param pagination 页数
+     * @param entry 条目数
+     * @return Result
+     */
+    @ApiOperation("校园展示的图片")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="Pagination",value="页数",dataType="Integer", paramType = "query"),
+            @ApiImplicitParam(name="Entry",value="条目数",dataType="Integer", paramType = "query"),
+    })
+    @GetMapping("/demonstrate")
+    @RequiresRoles(value = {"student"})
+    public Result getDemonstrate(
+             @RequestParam(value = "Pagination",defaultValue = "1") Integer pagination
+            ,@RequestParam(value = "Entry",defaultValue = "10") Integer entry){
+        return userService.getDemonstrate(
+                 pagination
+                ,entry
+                ,"/android/user/demonstrate");
+    }
+
+    @ApiOperation("展示信息推送")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="Pagination",value="页数",dataType="Integer", paramType = "query"),
+            @ApiImplicitParam(name="Entry",value="条目数",dataType="Integer", paramType = "query"),
+    })
+    @GetMapping("/info")
+    @RequiresRoles(value = {"student"})
+    public Result getInfo(
+             @RequestParam(value = "Pagination",defaultValue = "1") Integer pagination
+            ,@RequestParam(value = "Entry",defaultValue = "10") Integer entry){
+        return userService.getInfo(
+                 pagination
+                ,entry
+                ,"/android/user/demonstrate");
+    }
 }

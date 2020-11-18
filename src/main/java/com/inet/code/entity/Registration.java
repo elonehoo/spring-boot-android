@@ -43,19 +43,19 @@ public class Registration implements Serializable {
      * 签到用户的签到状态
      */
     @TableField(value = "registration_state")
-    private String registrationState;
+    private Boolean registrationState;
 
     /**
      * 签到的开始时间
      */
     @TableField(value = "registration_start")
-    private LocalDateTime registrationStart;
+    private Date registrationStart;
 
     /**
      * 签到的结束时间
      */
     @TableField(value = "registration_finish")
-    private LocalDateTime registrationFinish;
+    private Date registrationFinish;
 
     /**
      * 签到的总时间

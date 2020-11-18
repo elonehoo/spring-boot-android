@@ -54,4 +54,34 @@ public interface UserService extends IService<User> {
      * @return Result风格
      */
     Result getExit(String token, String path);
+
+    /**
+     * 签到操作
+     * @author HCY
+     * @since 2020-11-18
+     * @param token 令牌
+     * @param path URL路径
+     * @return Result风格
+     */
+    Result getSign(String token, String path);
+
+    /**
+     * 展示校园风景
+     * @param pagination 页数
+     * @param entry 条目数
+     * @param path URL路径
+     * @return Result风格
+     */
+    Result getDemonstrate(Integer pagination, Integer entry, String path);
+
+    /**
+     * 展示信息推送
+     * @author HCY
+     * @since 2020-11-18
+     * @param pagination 页数
+     * @param entry 条目数
+     * @param path URL路径
+     * @return Result风格
+     */
+    Result getInfo(Integer pagination, Integer entry, String path);
 }
