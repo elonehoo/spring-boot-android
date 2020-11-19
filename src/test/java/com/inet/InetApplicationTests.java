@@ -4,6 +4,7 @@ import cn.hutool.core.lang.Validator;
 import cn.hutool.core.util.IdUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.crypto.digest.DigestUtil;
+import cn.hutool.system.SystemUtil;
 import com.inet.code.service.DefaultService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -49,6 +50,11 @@ class InetApplicationTests {
     void contextLoads_6(){
         String password = "";
         System.out.println(Validator.isGeneral(password));
+    }
+
+    @Test
+    void setDefaultService(){
+        System.out.println(SystemUtil.getHostInfo());
     }
 
 }

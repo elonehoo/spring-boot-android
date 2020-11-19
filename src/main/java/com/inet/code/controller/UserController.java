@@ -140,6 +140,14 @@ public class UserController {
                 ,"/android/user/demonstrate");
     }
 
+    /**
+     * 展示信息的推送
+     * @author HCY
+     * @since 2020/11/19 7:58 下午
+     * @param pagination: 页数
+     * @param entry: 条目数
+     * @return com.inet.code.utlis.Result
+    */
     @ApiOperation("展示信息推送")
     @ApiImplicitParams({
             @ApiImplicitParam(name="Pagination",value="页数",dataType="Integer", paramType = "query"),
@@ -154,5 +162,43 @@ public class UserController {
                  pagination
                 ,entry
                 ,"/android/user/demonstrate");
+    }
+
+    /**
+     * 修改用户信息
+     * @author HCY
+     * @since 2020/11/19 8:30 下午
+     * @param buddha: 头像
+     * @param phone: 电话号码
+     * @param oldPassword : 旧密码
+     * @param newPassword:新密码
+     * @param clazz:班级
+     * @return com.inet.code.utlis.Result
+    */
+    @ApiOperation("修改用户信息")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="Buddha",value="头像",dataType="Integer", paramType = "query"),
+            @ApiImplicitParam(name="Phone",value="电话号码",dataType="Integer", paramType = "query"),
+            @ApiImplicitParam(name="OldPassword",value="旧密码",dataType="Integer", paramType = "query"),
+            @ApiImplicitParam(name="NewPassword",value="新密码",dataType="Integer", paramType = "query"),
+            @ApiImplicitParam(name="Clazz",value="班级",dataType="Integer", paramType = "query"),
+    })
+    @PostMapping("/modify")
+    @RequiresRoles(value = {"student"})
+    public Result postModify(
+             @RequestHeader(value = "Token",defaultValue = "") String token
+            ,@RequestParam(value = "Buddha",defaultValue = "") String buddha
+            ,@RequestParam(value = "Phone",defaultValue = "") String phone
+            ,@RequestParam(value = "OldPassword",defaultValue = "") String oldPassword
+            ,@RequestParam(value = "NewPassword",defaultValue = "") String newPassword
+            ,@RequestParam(value = "Clazz",defaultValue = "") String clazz){
+        return userService.getModifyUser(
+                 token
+                ,buddha
+                ,phone
+                ,oldPassword
+                ,newPassword
+                ,clazz,
+                "/android/user/modify");
     }
 }

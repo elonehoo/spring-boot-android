@@ -13,4 +13,12 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface CipherMapper extends BaseMapper<Cipher> {
 
+    /**
+     * 通过学号查找密码
+     * @author HCY
+     * @since 2020/11/19 9:03 下午
+     * @param userNumber:
+     * @return com.inet.code.entity.Cipher
+    */
+    Cipher getByNumber(String userNumber);
 }

@@ -1833,3 +1833,23 @@ java.lang.NumberFormatException: For input string: ""
 2020-11-18 19:23:35.051 DEBUG 5818 --- [http-nio-6161-exec-1] c.i.c.m.ExhibitionMapper.selectPage      : ==>  Preparing: SELECT exhibition_uuid,exhibition_images,exhibition_creation,exhibition_city,exhibition_modification FROM tbl_exhibition LIMIT ?,?
 2020-11-18 19:23:35.051 DEBUG 5818 --- [http-nio-6161-exec-1] c.i.c.m.ExhibitionMapper.selectPage      : ==> Parameters: 0(Long), 10(Long)
 2020-11-18 19:23:35.098 DEBUG 5818 --- [http-nio-6161-exec-1] c.i.c.m.ExhibitionMapper.selectPage      : <==      Total: 3
+2020-11-18 20:00:15.327  INFO 6014 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on localhost with PID 6014 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
+2020-11-18 20:00:15.339 DEBUG 6014 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-18 20:00:15.340  INFO 6014 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-18 20:00:23.297  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.305  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.339  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.340  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.461  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.463  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.479  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.480  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.498  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.499  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.500  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.501  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.502  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.503  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.522  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.524  WARN 6014 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-18 20:00:23.602  INFO 6014 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 9.234 seconds (JVM running for 12.019)

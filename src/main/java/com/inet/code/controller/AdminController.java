@@ -2,6 +2,7 @@ package com.inet.code.controller;
 
 import com.inet.code.service.ExhibitionService;
 import com.inet.code.service.PushService;
+import com.inet.code.service.UserService;
 import com.inet.code.utlis.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -30,6 +31,9 @@ public class AdminController {
     @Resource
     private ExhibitionService exhibitionService;
 
+    @Resource
+    private UserService userService;
+
     /**
      * 发送推送信息
      * @author HCY
@@ -55,6 +59,8 @@ public class AdminController {
 
     /**
      * 上传校园图片
+     * @author HCY
+     * @since 2020-11-18
      * @param city 校园位置
      * @param images 图片URL位置
      * @return Result
@@ -74,4 +80,42 @@ public class AdminController {
                 ,"/android/admin/upload");
     }
 
+    /**
+     * 展示学生信息
+     * @author HCY
+     * @since 2020/11/19 8:12 下午
+     * @param pagination:
+     * @param entry:
+     * @return com.inet.code.utlis.Result
+    */
+    @ApiOperation("展示学生信息")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="Pagination",value="页数",dataType="Integer", paramType = "query"),
+            @ApiImplicitParam(name="Entry",value="条目数",dataType="Integer", paramType = "query"),
+    })
+    @GetMapping("/display")
+    @RequiresRoles(value = {"admin"})
+    public Result getDisplay(
+             @RequestParam(value = "Pagination",defaultValue = "1") Integer pagination
+            ,@RequestParam(value = "Entry",defaultValue = "10") Integer entry){
+        return userService.getDisplay(pagination,entry,"/android/admin/display");
+    }
+
+    /**
+     * 删除学生信息
+     * @author HCY
+     * @since 2020/11/19 9:55 下午
+     * @param uuid: 用户的uuid
+     * @return com.inet.code.utlis.Result
+    */
+    @ApiOperation("删除学生")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="UUID",value="uuid",dataType="String", paramType = "query"),
+    })
+    @GetMapping("/cancel")
+    @RequiresRoles(value = {"admin"})
+    public Result getCancel(
+            @RequestParam(value = "UUID",defaultValue = "1") String uuid){
+        return userService.getCancel(uuid,"/android/admin/cancel");
+    }
 }

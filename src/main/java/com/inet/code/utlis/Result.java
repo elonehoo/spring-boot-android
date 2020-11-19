@@ -62,6 +62,88 @@ public class Result {
     private String path;
 
     /**
+     * OK
+     * @author HCY
+     * @since 2020-11-19
+     * @param message 信息
+     * @param path URL路径
+     * @return Result 风格的返回值
+     */
+    public Result result200(Object message , String path){
+        return new Result(
+                Result.STATUS_OK_200
+                ,Result.INFO_OK_200
+                ,Result.DETAILS_OK_200
+                ,message
+                ,path);
+    }
+    /**
+     * ILLEGAL
+     * @author HCY
+     * @since 2020-11-19
+     * @param message 信息
+     * @param path URL路径
+     * @return Result 风格的返回值
+     */
+    public Result result401(Object message , String path){
+        return new Result(
+                Result.STATUS_ILLEGAL_401
+                ,Result.INFO_ILLEGAL_401
+                ,Result.DETAILS_ILLEGAL_401
+                ,message
+                ,path);
+    }
+    /**
+     * BAN
+     * @author HCY
+     * @since 2020-11-19
+     * @param message 信息
+     * @param path URL路径
+     * @return Result 风格的返回值
+     */
+    public Result result403(Object message , String path){
+        return new Result(
+                Result.STATUS_BAN_403
+                ,Result.INFO_BAN_403
+                ,Result.DETAILS_BAN_403
+                ,message
+                ,path);
+    }
+    /**
+     * NotFound
+     * @author HCY
+     * @since 2020-11-19
+     * @param message 信息
+     * @param path URL路径
+     * @return Result 风格的返回值
+     */
+    public Result result404(Object message , String path){
+        return new Result(
+                Result.STATUS_NOT_FOUND_404
+                ,Result.INFO_NOT_FOUND_404
+                ,Result.DETAILS_NOT_FOUND_404
+                ,message
+                ,path);
+    }
+    /**
+     * ERROR
+     * @author HCY
+     * @since 2020-11-19
+     * @param message 信息
+     * @param path URL路径
+     * @return Result 风格的返回值
+     */
+    public Result result500(Object message , String path){
+        return new Result(
+                Result.STATUS_ERROR_500
+                ,Result.INFO_ERROR_500
+                ,Result.DETAILS_ERROR_500
+                ,message
+                ,path);
+    }
+
+
+    /**
      * 空参
      */
     public Result() {

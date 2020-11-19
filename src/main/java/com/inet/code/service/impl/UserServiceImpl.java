@@ -363,6 +363,84 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     }
 
     /**
+     * 展示学生信息
+     * @author HCY
+     * @since 2020/11/19 8:18 下午
+     * @param pagination: 页数
+     * @param entry: 条目数
+     * @param path: URL路径
+     * @return com.inet.code.utlis.Result
+    */
+    @Override
+    public Result getDisplay(Integer pagination, Integer entry, String path) {
+        //设置分页条件
+        Page<User> userPage = new Page<>(pagination, entry);
+        //进行分页操作
+        Map<String, Object> map = new HashMap<>(2);
+        map.put("info","请求成功");
+        map.put("pageInfo",this.page(userPage));
+        return new Result().result200(map,path);
+    }
+
+    /**
+     * 修改用户信息
+     * @author HCY
+     * @since 2020/11/19 8:39 下午
+     * @param buddha: 头像
+     * @param phone: 电话号码
+     * @param oldPassword: 旧密码
+     * @param newPassword: 新密码
+     * @param clazz: 班级
+     * @param path: URL路径
+     * @return com.inet.code.utlis.Result
+     */
+    @Override
+    public Result getModifyUser(String token,String buddha, String phone, String oldPassword
+            , String newPassword, String clazz, String path) {
+        //通过token获取个人信息
+        User user = (User) redisTemplate.opsForValue().get(token);
+        //判断头像
+        if (! StrUtil.hasEmpty(buddha)){
+            user.setUserBuddha(buddha);
+        }
+        //判断电话号码是否正确
+        if(Validator.isMobile(phone)){
+            user.setUserPhone(phone);
+        }
+        //设置班级
+        user.setUserClass(clazz);
+        //设置修改时间
+        user.setUserModification(new Date());
+        //进行修改
+        this.updateById(user);
+        //判断旧密码是否正确
+        Cipher cipher = cipherService.getByNumber(user.getUserNumber());
+        if (cipher.getCipherPassword().equals(DigestUtil.md5Hex(oldPassword))){
+            cipher.setCipherPassword(DigestUtil.md5Hex(newPassword));
+        }
+        cipher.setCipherModification(new Date());
+        //进行修改
+        cipherService.updateById(cipher);
+        return new Result().result200("修改成功",path);
+    }
+
+
+
+    /**
+     * 删除用户
+     * @author HCY
+     * @since 2020/11/19 9:50 下午
+     * @param uuid:
+     * @param path:
+     * @return com.inet.code.utlis.Result
+    */
+    @Override
+    public Result getCancel(String uuid, String path) {
+        return null;
+    }
+
+
+    /**
      * 签到操作
      * @author WSQ
      * @since 2020-11-18
