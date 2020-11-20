@@ -424,19 +424,23 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         return new Result().result200("修改成功",path);
     }
 
-
-
     /**
      * 删除用户
      * @author HCY
      * @since 2020/11/19 9:50 下午
-     * @param uuid:
-     * @param path:
+     * @param number: 学号
+     * @param path: URL路径
      * @return com.inet.code.utlis.Result
     */
     @Override
-    public Result getCancel(String uuid, String path) {
-        return null;
+    public Result getCancel(String number, String path) {
+        //通过学号删除用户
+        userMapper.removeByNumber(number);
+        //删除密码
+        cipherService.removeByNumber(number);
+        //删除签到
+        registrationService.removeByNumber(number);
+        return new Result().result200("删除成功",path);
     }
 
 

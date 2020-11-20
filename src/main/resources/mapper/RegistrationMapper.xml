@@ -2,6 +2,14 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.inet.code.mapper.RegistrationMapper">
 
+
+    <delete id="removeByNumber">
+        DELETE tbl_registration
+        WHERE
+            registration_number = #{number}
+        LIMIT 1;
+    </delete>
+
     <select id="getByNumber" resultType="com.inet.code.entity.Registration">
         SELECT
             registration_uuid AS registrationUuid,

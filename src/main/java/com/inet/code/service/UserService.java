@@ -100,6 +100,7 @@ public interface UserService extends IService<User> {
      * 修改用户信息
      * @author HCY
      * @since 2020/11/19 8:39 下午
+     * @param token: 令牌
      * @param buddha: 头像
      * @param phone: 电话号码
      * @param oldPassword: 旧密码
@@ -121,9 +122,9 @@ public interface UserService extends IService<User> {
      * 删除用户
      * @author HCY
      * @since 2020/11/19 9:49 下午
-     * @param uuid:
-     * @param path:
+     * @param number: 学号
+     * @param path: URL路径
      * @return com.inet.code.utlis.Result
     */
-    Result getCancel(String uuid, String path);
+    Result getCancel(String number, String path);
 }

@@ -28,4 +28,12 @@ public interface UserMapper extends BaseMapper<User> {
      * @return User 实体类
      */
     User getByNumber(String number);
+    /**
+     * 通过学号删除用户
+     * @author HCY
+     * @since 2020/11/20 7:52 上午
+     * @param number:
+     * @return java.lang.Boolean
+    */
+    Boolean removeByNumber(String number);
 }

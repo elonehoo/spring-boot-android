@@ -20,4 +20,12 @@ public interface RegistrationService extends IService<Registration> {
      * @return Registration 实体类
      */
     Registration getByNumber(String userNumber);
+    /**
+     * 通过学号删除用户的签到
+     * @author HCY
+     * @since 2020/11/20 7:57 上午
+     * @param number: 学号
+     * @return java.lang.Boolean
+    */
+    Boolean removeByNumber(String number);
 }

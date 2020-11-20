@@ -105,17 +105,17 @@ public class AdminController {
      * 删除学生信息
      * @author HCY
      * @since 2020/11/19 9:55 下午
-     * @param uuid: 用户的uuid
+     * @param number: 用户的uuid
      * @return com.inet.code.utlis.Result
     */
     @ApiOperation("删除学生")
     @ApiImplicitParams({
-            @ApiImplicitParam(name="UUID",value="uuid",dataType="String", paramType = "query"),
+            @ApiImplicitParam(name="Number",value="学号",dataType="String", paramType = "query"),
     })
     @GetMapping("/cancel")
     @RequiresRoles(value = {"admin"})
     public Result getCancel(
-            @RequestParam(value = "UUID",defaultValue = "1") String uuid){
-        return userService.getCancel(uuid,"/android/admin/cancel");
+            @RequestParam(value = "Number",defaultValue = "") String number){
+        return userService.getCancel(number,"/android/admin/cancel");
     }
 }

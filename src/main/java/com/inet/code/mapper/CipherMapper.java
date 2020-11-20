@@ -21,4 +21,12 @@ public interface CipherMapper extends BaseMapper<Cipher> {
      * @return com.inet.code.entity.Cipher
     */
     Cipher getByNumber(String userNumber);
+    /**
+     * 通过学号删除密码
+     * @author HCY
+     * @since 2020/11/20 7:54 上午
+     * @param number: 学号
+     * @return java.lang.Boolean
+    */
+    Boolean removeByNumber(String number);
 }
