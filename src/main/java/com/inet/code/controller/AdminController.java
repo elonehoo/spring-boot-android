@@ -56,6 +56,22 @@ public class AdminController {
                 ,content
                 ,"/android/admin/push");
     }
+    /**
+     * 删除推文，通过uuid
+     * @author HCY
+     * @since 2020/11/20 9:34 上午
+     * @param uuid: 序号
+     * @return com.inet.code.utlis.Result
+    */
+    @ApiOperation("通过uuid删除推文")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="UUID",value="uuid",dataType="String", paramType = "query"),
+    })
+    @GetMapping("/deleteTweets")
+    @RequiresRoles(value = {"admin"})
+    public Result getDeleteTweets(@RequestParam(value = "UUID",defaultValue = "") String uuid){
+        return pushService.removeByuuid(uuid,"/android/admin/deleteTweets");
+    }
 
     /**
      * 上传校园图片
@@ -78,6 +94,22 @@ public class AdminController {
                  city
                 ,images
                 ,"/android/admin/upload");
+    }
+    /**
+     * 通过uuid删除图片
+     * @author HCY
+     * @since 2020/11/20 9:40 上午
+     * @param uuid: 序号
+     * @return com.inet.code.utlis.Result
+    */
+    @ApiOperation("通过uuid删除校园图片")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="UUID",value="uuid",dataType="String", paramType = "query"),
+    })
+    @RequiresRoles(value = {"admin"})
+    @GetMapping("/deleteImages")
+    public Result getDeleteImages(@RequestParam(value = "UUID",defaultValue = "") String uuid){
+        return exhibitionService.remobeByuuid(uuid,"/android/admin/deleteImages");
     }
 
     /**

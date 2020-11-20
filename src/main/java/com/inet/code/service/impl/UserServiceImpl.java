@@ -12,6 +12,7 @@ import com.inet.code.mapper.UserMapper;
 import com.inet.code.service.*;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.inet.code.utlis.JwtUtils;
+import com.inet.code.utlis.PageUtils;
 import com.inet.code.utlis.Result;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
@@ -363,7 +364,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     }
 
     /**
-     * 展示学生信息
+     * 展示学生信息,不现实管理员用户
      * @author HCY
      * @since 2020/11/19 8:18 下午
      * @param pagination: 页数
@@ -373,12 +374,14 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     */
     @Override
     public Result getDisplay(Integer pagination, Integer entry, String path) {
-        //设置分页条件
-        Page<User> userPage = new Page<>(pagination, entry);
+        Integer total = userMapper.getTotal();
         //进行分页操作
         Map<String, Object> map = new HashMap<>(2);
         map.put("info","请求成功");
-        map.put("pageInfo",this.page(userPage));
+        map.put("pageInfo",new PageUtils<User>(total,entry
+                            ,userMapper.page((pagination * entry - entry) , entry)
+                            ,total % entry != 0 ? ((total / entry) + 1) : (total / entry))
+        );
         return new Result().result200(map,path);
     }
 

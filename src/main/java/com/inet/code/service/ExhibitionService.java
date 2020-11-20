@@ -24,4 +24,13 @@ public interface ExhibitionService extends IService<Exhibition> {
      * @return Result风格
      */
     Result getUploading(String city, String images, String path);
+    /**
+     * 通过uuid删除图片
+     * @author HCY
+     * @since 2020/11/20 9:41 上午
+     * @param uuid: 序号
+     * @param path: URL路径
+     * @return com.inet.code.utlis.Result
+    */
+    Result remobeByuuid(String uuid, String path);
 }

@@ -21,4 +21,12 @@ public interface PushService extends IService<Push> {
      * @return Result风格
      */
     Result getSend(String headline, String content, String path);
+    /**
+     * 通过uuid删除推文
+     * @author HCY
+     * @since 2020/11/20 9:35 上午
+     * @param uuid:
+     * @return com.inet.code.utlis.Result
+    */
+    Result removeByuuid(String uuid,String path);
 }

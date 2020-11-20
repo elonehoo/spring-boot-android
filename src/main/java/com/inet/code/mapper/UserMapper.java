@@ -3,6 +3,8 @@ package com.inet.code.mapper;
 import com.inet.code.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
+import java.util.List;
+
 /**
  * <p>
  *  Mapper 接口
@@ -36,4 +38,20 @@ public interface UserMapper extends BaseMapper<User> {
      * @return java.lang.Boolean
     */
     Boolean removeByNumber(String number);
+    /**
+     * 进行分页操作
+     * @author HCY
+     * @since 2020/11/20 9:06 上午
+     * @param size:
+     * @param entry:
+     * @return java.util.List<com.inet.code.entity.User>
+    */
+    List<User> page(int size, Integer entry);
+    /**
+     * 查看总数
+     * @author HCY
+     * @since 2020/11/20 9:09 上午
+     * @return java.lang.Integer
+    */
+    Integer getTotal();
 }

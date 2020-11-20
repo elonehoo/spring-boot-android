@@ -41,4 +41,32 @@
             user_number = #{number}
             LIMIT 1;
     </select>
+    <!--分页操作-->
+    <select id="page" resultType="com.inet.code.entity.User">
+        SELECT
+            user_uuid AS userUuid,
+            user_name AS userName,
+            user_buddha AS userBuddha,
+            user_phone AS userPhone,
+            user_number AS userNumber,
+            user_class AS userClass,
+            user_creation AS userCreation,
+            user_modification AS userModification
+        FROM
+            tbl_user AS t1
+        LEFT JOIN tbl_character AS t2 ON t2.character_number = t1.user_number
+        LEFT JOIN tbl_role AS t3 ON t3.role_uuid = t2.character_role_uuid
+        WHERE t3.role_name = "student"
+        LIMIT #{size},#{entry} ;
+    </select>
+    <!--查看总共的数目-->
+    <select id="getTotal" resultType="java.lang.Integer">
+        SELECT
+            COUNT( 1 )
+        FROM
+            tbl_user AS t1
+            LEFT JOIN tbl_character AS t2 ON t2.character_number = t1.user_number
+            LEFT JOIN tbl_role AS t3 ON t3.role_uuid = t2.character_role_uuid
+        WHERE t3.role_name = "student";
+    </select>
 </mapper>

@@ -1,5 +1,6 @@
 package com.inet.code.service.impl;
 
+import com.baomidou.mybatisplus.extension.api.R;
 import com.inet.code.entity.Exhibition;
 import com.inet.code.mapper.ExhibitionMapper;
 import com.inet.code.service.ExhibitionService;
@@ -7,6 +8,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.inet.code.utlis.Result;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.Date;
 
 /**
@@ -19,6 +21,9 @@ import java.util.Date;
  */
 @Service
 public class ExhibitionServiceImpl extends ServiceImpl<ExhibitionMapper, Exhibition> implements ExhibitionService {
+
+    @Resource
+    private ExhibitionMapper exhibitionMapper;
 
     /**
      * 上传图片
@@ -48,5 +53,21 @@ public class ExhibitionServiceImpl extends ServiceImpl<ExhibitionMapper, Exhibit
                 , Result.DETAILS_OK_200
                 , "存储成功"
                 , path );
+    }
+
+    /**
+     * 通过uuid删除图片
+     * @author HCY
+     * @since 2020/11/20 9:41 上午
+     * @param uuid: 序号
+     * @param path: URL路径
+     * @return com.inet.code.utlis.Result
+    */
+    @Override
+    public Result remobeByuuid(String uuid, String path) {
+        if (this.removeById(uuid)) {
+            return new Result().result200("删除成功",path);
+        }
+        return new Result().result500("删除失败",path);
     }
 }

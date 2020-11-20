@@ -57,4 +57,12 @@ class InetApplicationTests {
         System.out.println(SystemUtil.getHostInfo());
     }
 
+    @Test
+    void contextLoads_7(){
+        Integer a = 11;
+        Integer b = 5;
+        Integer c = a % b != 0 ? ((a / b) + 1) : (a / b);
+        System.out.println(c);
+    }
+
 }
