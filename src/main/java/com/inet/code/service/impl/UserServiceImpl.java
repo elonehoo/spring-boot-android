@@ -456,11 +456,14 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     */
     @Override
     public Result getAffirm(String token, String path) {
+        //从redis中获取到用户的信息
         User user = (User) redisTemplate.opsForValue().get(token);
-        if (user != null){
-            return new Result().result200("已经登录",path);
-        }
-        return new Result().result500("登录失效",path);
+        //设置返回值
+        Map<String, Object> map = new HashMap<>(2);
+        //判断用户是否为空
+        map.put("info", "登录中");
+        map.put("result", user);
+        return new Result().result200(map, path);
     }
 
 
