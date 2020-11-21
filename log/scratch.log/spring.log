@@ -1,252 +1,36 @@
-2020-11-20 09:16:06.929  INFO 9729 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on huchengyedeMacBook-Pro.local with PID 9729 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
-2020-11-20 09:16:06.947 DEBUG 9729 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
-2020-11-20 09:16:06.947  INFO 9729 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
-2020-11-20 09:16:13.738  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:13.786  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:13.787  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:13.797  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:13.799  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:13.811  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:13.813  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:13.992  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:13.992  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.026  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.028  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.060  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.061  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.062  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.063  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.064  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.065  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.077  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.079  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.080  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.081  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.082  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.089  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.090  WARN 9729 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:14.125  INFO 9729 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 8.17 seconds (JVM running for 10.764)
-2020-11-20 09:16:31.520  INFO 9747 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on huchengyedeMacBook-Pro.local with PID 9747 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
-2020-11-20 09:16:31.525 DEBUG 9747 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
-2020-11-20 09:16:31.526  INFO 9747 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
-2020-11-20 09:16:38.052  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.093  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.094  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.104  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.105  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.115  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.116  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.296  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.297  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.321  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.326  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.365  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.366  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.367  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.368  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.369  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.376  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.392  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.393  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.394  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.394  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.396  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.412  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.413  WARN 9747 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:16:38.457  INFO 9747 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 7.869 seconds (JVM running for 10.45)
-2020-11-20 09:24:13.329  INFO 9808 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on huchengyedeMacBook-Pro.local with PID 9808 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
-2020-11-20 09:24:13.336 DEBUG 9808 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
-2020-11-20 09:24:13.337  INFO 9808 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
-2020-11-20 09:24:20.640  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.686  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.687  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.695  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.696  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.702  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.703  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.800  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.801  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.814  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.815  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.829  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.830  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.831  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.831  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.831  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.832  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.841  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.842  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.843  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.844  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.844  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.857  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.859  WARN 9808 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:20.906  INFO 9808 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 8.429 seconds (JVM running for 11.346)
-2020-11-20 09:24:37.432  INFO 9815 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on huchengyedeMacBook-Pro.local with PID 9815 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
-2020-11-20 09:24:37.434 DEBUG 9815 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
-2020-11-20 09:24:37.435  INFO 9815 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
-2020-11-20 09:24:44.314  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.355  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.356  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.365  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.366  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.374  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.374  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.505  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.505  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.519  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.520  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.565  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.567  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.568  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.569  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.572  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.574  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.604  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.607  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.612  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.614  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.616  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.630  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.632  WARN 9815 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:24:44.670  INFO 9815 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 8.067 seconds (JVM running for 10.472)
-2020-11-20 09:24:57.592  INFO 9821 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on huchengyedeMacBook-Pro.local with PID 9821 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
-2020-11-20 09:24:57.594 DEBUG 9821 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
-2020-11-20 09:24:57.595  INFO 9821 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
-2020-11-20 09:25:04.883  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:04.931  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:04.932  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:04.938  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:04.939  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:04.949  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:04.950  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.067  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.069  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.085  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.086  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.121  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.123  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.123  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.124  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.127  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.132  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.156  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.157  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.158  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.162  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.163  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.176  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.179  WARN 9821 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:05.229  INFO 9821 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 8.458 seconds (JVM running for 10.656)
-2020-11-20 09:25:33.648  INFO 9828 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on huchengyedeMacBook-Pro.local with PID 9828 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
-2020-11-20 09:25:33.650 DEBUG 9828 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
-2020-11-20 09:25:33.651  INFO 9828 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
-2020-11-20 09:25:40.395  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.445  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.446  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.456  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.457  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.468  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.469  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.618  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.618  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.638  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.639  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.665  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.666  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.666  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.667  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.668  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.670  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.689  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.689  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.690  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.691  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.701  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.713  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.714  WARN 9828 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:25:40.741  INFO 9828 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 7.909 seconds (JVM running for 10.027)
-2020-11-20 09:27:17.680  INFO 9836 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on huchengyedeMacBook-Pro.local with PID 9836 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
-2020-11-20 09:27:17.681 DEBUG 9836 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
-2020-11-20 09:27:17.685  INFO 9836 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
-2020-11-20 09:27:24.323  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.405  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.409  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.451  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.453  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.468  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.468  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.704  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.705  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.721  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.722  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.737  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.738  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.739  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.740  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.741  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.742  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.752  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.753  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.754  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.754  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.755  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.761  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.762  WARN 9836 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:24.787  INFO 9836 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 8.022 seconds (JVM running for 10.185)
-2020-11-20 09:27:40.758  INFO 9847 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on huchengyedeMacBook-Pro.local with PID 9847 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
-2020-11-20 09:27:40.760 DEBUG 9847 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
-2020-11-20 09:27:40.761  INFO 9847 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
-2020-11-20 09:27:47.124  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.165  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.166  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.173  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.174  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.187  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.188  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.323  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.324  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.349  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.350  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.381  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.381  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.382  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.384  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.387  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.389  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.404  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.408  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.409  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.411  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.411  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.427  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.429  WARN 9847 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:27:47.461  INFO 9847 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 7.367 seconds (JVM running for 9.288)
-2020-11-20 09:28:00.553  INFO 9854 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on huchengyedeMacBook-Pro.local with PID 9854 (started by huchengye in /Volumes/1/JAVA/spring-boot-android)
-2020-11-20 09:28:00.556 DEBUG 9854 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
-2020-11-20 09:28:00.557  INFO 9854 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
-2020-11-20 09:28:08.439  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.490  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.491  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.503  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.504  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.515  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.517  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.672  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.673  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.707  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.709  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.740  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.741  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.742  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.743  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.744  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.746  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.765  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.767  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.768  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.769  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.770  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.780  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.780  WARN 9854 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
-2020-11-20 09:28:08.808  INFO 9854 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 9.117 seconds (JVM running for 11.265)
+2020-11-21 12:45:48.510  INFO 15244 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 15244 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-21 12:45:48.512 DEBUG 15244 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-21 12:45:48.513  INFO 15244 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-21 12:45:53.038  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.063  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.068  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.072  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.073  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.079  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.079  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.083  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.084  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.166  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.167  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.173  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.174  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.183  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.183  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.183  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.184  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.184  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.185  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.194  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.194  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.195  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.195  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.196  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.200  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.200  WARN 15244 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 12:45:53.215  INFO 15244 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 5.046 seconds (JVM running for 5.988)
+2020-11-21 12:45:54.699 DEBUG 15244 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-21 12:45:54.720 DEBUG 15244 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-21 12:45:54.752 DEBUG 15244 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-21 12:45:54.756 DEBUG 15244 --- [main] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-21 12:45:54.757 DEBUG 15244 --- [main] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 0(Integer)
+2020-11-21 12:45:54.774 DEBUG 15244 --- [main] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1

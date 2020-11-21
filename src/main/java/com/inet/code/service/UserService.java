@@ -127,4 +127,14 @@ public interface UserService extends IService<User> {
      * @return com.inet.code.utlis.Result
     */
     Result getCancel(String number, String path);
+
+    /**
+    * 通过token判断用户是否在登录
+    * @author HCY
+    * @since 2020/11/21 下午 12:38
+    * @param token: 令牌
+    * @param path: URL路径
+    * @return com.inet.code.utlis.Result
+    */
+    Result getAffirm(String token, String path);
 }

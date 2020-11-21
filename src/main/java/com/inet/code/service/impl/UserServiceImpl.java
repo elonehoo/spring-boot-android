@@ -446,6 +446,23 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         return new Result().result200("删除成功",path);
     }
 
+    /**
+    * 判断是否登录中
+    * @author HCY
+    * @since 2020/11/21 下午 12:43
+    * @param token: 令牌
+    * @param path: URL路径
+    * @return com.inet.code.utlis.Result
+    */
+    @Override
+    public Result getAffirm(String token, String path) {
+        User user = (User) redisTemplate.opsForValue().get(token);
+        if (user != null){
+            return new Result().result200("已经登录",path);
+        }
+        return new Result().result500("登录失效",path);
+    }
+
 
     /**
      * 签到操作

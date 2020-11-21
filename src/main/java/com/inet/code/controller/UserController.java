@@ -6,6 +6,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.springframework.web.bind.annotation.*;
 
@@ -162,6 +163,20 @@ public class UserController {
                  pagination
                 ,entry
                 ,"/android/user/demonstrate");
+    }
+
+    /**
+    * 判断是否在登陆状态
+    * @author HCY
+    * @since 2020/11/21 下午 12:45
+    * @param token: 令牌
+    * @return com.inet.code.utlis.Result
+    */
+    @ApiOperation("判断是否登录")
+    @GetMapping("/affirm")
+    @RequiresRoles(logical = Logical.OR,value = {"student","admin"})
+    public Result getAffirm(@RequestHeader(value = "Token",defaultValue = "") String token){
+        return userService.getAffirm(token,"/android/user/affirm");
     }
 
     /**
