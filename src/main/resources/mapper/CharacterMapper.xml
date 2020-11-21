@@ -2,4 +2,13 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.inet.code.mapper.CharacterMapper">
 
+
+    <delete id="removeByNumber">
+        DELETE
+        FROM
+            tbl_character
+        WHERE
+            character_number = #{number}
+        LIMIT 1;
+    </delete>
 </mapper>

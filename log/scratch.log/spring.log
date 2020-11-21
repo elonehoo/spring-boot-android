@@ -70,3 +70,197 @@
 2020-11-21 14:26:26.503 DEBUG 3668 --- [main] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
 2020-11-21 14:26:26.503 DEBUG 3668 --- [main] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 1(Integer)
 2020-11-21 14:26:26.513 DEBUG 3668 --- [main] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-21 15:51:59.941  INFO 4848 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 4848 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-21 15:51:59.942 DEBUG 4848 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-21 15:51:59.943  INFO 4848 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-21 15:52:03.007  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.028  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.032  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.036  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.037  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.042  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.042  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.046  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.047  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.109  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.110  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.118  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.119  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.126  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.127  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.127  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.127  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.127  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.128  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.134  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.134  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.134  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.135  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.135  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.140  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.140  WARN 4848 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:52:03.156  INFO 4848 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 3.407 seconds (JVM running for 3.992)
+2020-11-21 15:52:03.970 DEBUG 4848 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-21 15:52:03.991 DEBUG 4848 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-21 15:52:04.021 DEBUG 4848 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-21 15:52:04.024 DEBUG 4848 --- [main] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-21 15:52:04.025 DEBUG 4848 --- [main] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 2(Integer)
+2020-11-21 15:52:04.041 DEBUG 4848 --- [main] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-21 15:57:48.799  INFO 4816 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 4816 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-21 15:57:48.800 DEBUG 4816 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-21 15:57:48.800  INFO 4816 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-21 15:57:51.883  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.906  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.910  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.914  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.915  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.918  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.919  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.923  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.924  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.983  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.984  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.989  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.990  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.997  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.997  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.997  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.998  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.998  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:51.999  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:52.006  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:52.006  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:52.007  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:52.007  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:52.007  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:52.012  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:52.013  WARN 4816 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 15:57:52.032  INFO 4816 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 3.421 seconds (JVM running for 4.009)
+2020-11-21 15:57:52.784 DEBUG 4816 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-21 15:57:52.806 DEBUG 4816 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-21 15:57:52.830 DEBUG 4816 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-21 15:57:52.833 DEBUG 4816 --- [main] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-21 15:57:52.834 DEBUG 4816 --- [main] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 0(Integer)
+2020-11-21 15:57:52.844 DEBUG 4816 --- [main] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-21 16:11:42.389  INFO 6236 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 6236 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-21 16:11:42.390 DEBUG 6236 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-21 16:11:42.390  INFO 6236 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-21 16:11:45.427  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.450  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.453  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.457  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.457  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.461  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.461  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.464  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.465  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.514  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.515  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.520  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.521  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.528  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.528  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.528  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.529  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.529  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.529  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.533  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.533  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.534  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.534  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.534  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.537  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.537  WARN 6236 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:11:45.553  INFO 6236 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 3.365 seconds (JVM running for 4.024)
+2020-11-21 16:11:46.235 DEBUG 6236 --- [main] c.i.c.mapper.UserMapper.removeByNumber   : ==>  Preparing: DELETE tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-21 16:11:46.256 DEBUG 6236 --- [main] c.i.c.mapper.UserMapper.removeByNumber   : ==> Parameters: 2019002126(String)
+2020-11-21 16:14:03.290  INFO 16248 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 16248 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-21 16:14:03.291 DEBUG 16248 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-21 16:14:03.291  INFO 16248 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-21 16:14:06.337  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.359  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.362  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.366  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.366  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.369  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.370  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.374  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.375  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.426  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.426  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.432  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.433  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.439  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.439  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.439  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.440  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.440  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.440  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.444  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.445  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.445  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.445  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.445  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.449  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.449  WARN 16248 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:06.461  INFO 16248 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 3.404 seconds (JVM running for 4.08)
+2020-11-21 16:14:07.177 DEBUG 16248 --- [main] c.i.c.mapper.UserMapper.removeByNumber   : ==>  Preparing: DELETE FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-21 16:14:07.199 DEBUG 16248 --- [main] c.i.c.mapper.UserMapper.removeByNumber   : ==> Parameters: 2019002126(String)
+2020-11-21 16:14:07.227 DEBUG 16248 --- [main] c.i.c.mapper.UserMapper.removeByNumber   : <==    Updates: 1
+2020-11-21 16:14:07.228 DEBUG 16248 --- [main] c.i.c.m.CipherMapper.removeByNumber      : ==>  Preparing: DELETE FROM tbl_cipher WHERE cipher_number = ? LIMIT 1
+2020-11-21 16:14:07.229 DEBUG 16248 --- [main] c.i.c.m.CipherMapper.removeByNumber      : ==> Parameters: 2019002126(String)
+2020-11-21 16:14:07.255 DEBUG 16248 --- [main] c.i.c.m.CipherMapper.removeByNumber      : <==    Updates: 1
+2020-11-21 16:14:07.256 DEBUG 16248 --- [main] c.i.c.m.R.removeByNumber                 : ==>  Preparing: DELETE FROM tbl_registration WHERE registration_number = ? LIMIT 1;
+2020-11-21 16:14:07.256 DEBUG 16248 --- [main] c.i.c.m.R.removeByNumber                 : ==> Parameters: 2019002126(String)
+2020-11-21 16:14:07.286 DEBUG 16248 --- [main] c.i.c.m.R.removeByNumber                 : <==    Updates: 1
+2020-11-21 16:14:07.287 DEBUG 16248 --- [main] c.i.c.m.CharacterMapper.removeByNumber   : ==>  Preparing: DELETE FROM tbl_character WHERE character_number = ? LIMIT 1;
+2020-11-21 16:14:07.287 DEBUG 16248 --- [main] c.i.c.m.CharacterMapper.removeByNumber   : ==> Parameters: 2019002126(String)
+2020-11-21 16:14:07.314 DEBUG 16248 --- [main] c.i.c.m.CharacterMapper.removeByNumber   : <==    Updates: 1
+2020-11-21 16:14:17.303  INFO 10924 --- [main] com.inet.InetApplicationTests            : Starting InetApplicationTests on DESKTOP-TSJVEJ5 with PID 10924 (started by HCY in D:\8.items\spring-boot-android)
+2020-11-21 16:14:17.304 DEBUG 10924 --- [main] com.inet.InetApplicationTests            : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-11-21 16:14:17.305  INFO 10924 --- [main] com.inet.InetApplicationTests            : No active profile set, falling back to default profiles: default
+2020-11-21 16:14:20.570  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.591  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.594  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.599  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.599  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.604  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.604  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.608  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.608  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.661  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.661  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.667  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.668  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.675  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.675  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.676  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.676  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.676  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.676  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.682  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.682  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.682  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.682  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.683  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.686  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.687  WARN 10924 --- [main] d.s.r.o.OperationImplicitParameterReader : Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2020-11-21 16:14:20.705  INFO 10924 --- [main] com.inet.InetApplicationTests            : Started InetApplicationTests in 3.606 seconds (JVM running for 4.229)
+2020-11-21 16:14:21.584 DEBUG 10924 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : ==>  Preparing: SELECT COUNT( 1 ) FROM tbl_default
+2020-11-21 16:14:21.621 DEBUG 10924 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : ==> Parameters: 
+2020-11-21 16:14:21.644 DEBUG 10924 --- [main] c.i.c.mapper.DefaultMapper.selectCount   : <==      Total: 1
+2020-11-21 16:14:21.647 DEBUG 10924 --- [main] c.i.c.m.D.getRandomImagesUrl             : ==>  Preparing: SELECT t1.default_uuid AS defaultUuid, t1.default_url AS defaultUrl FROM tbl_default AS t1 LIMIT ?,1
+2020-11-21 16:14:21.648 DEBUG 10924 --- [main] c.i.c.m.D.getRandomImagesUrl             : ==> Parameters: 0(Integer)
+2020-11-21 16:14:21.658 DEBUG 10924 --- [main] c.i.c.m.D.getRandomImagesUrl             : <==      Total: 1
+2020-11-21 16:14:21.669 DEBUG 10924 --- [main] c.i.c.mapper.UserMapper.removeByNumber   : ==>  Preparing: DELETE FROM tbl_user WHERE user_number = ? LIMIT 1;
+2020-11-21 16:14:21.669 DEBUG 10924 --- [main] c.i.c.mapper.UserMapper.removeByNumber   : ==> Parameters: 2019002126(String)
+2020-11-21 16:14:21.691 DEBUG 10924 --- [main] c.i.c.mapper.UserMapper.removeByNumber   : <==    Updates: 0
+2020-11-21 16:14:21.692 DEBUG 10924 --- [main] c.i.c.m.CipherMapper.removeByNumber      : ==>  Preparing: DELETE FROM tbl_cipher WHERE cipher_number = ? LIMIT 1
+2020-11-21 16:14:21.692 DEBUG 10924 --- [main] c.i.c.m.CipherMapper.removeByNumber      : ==> Parameters: 2019002126(String)
+2020-11-21 16:14:21.711 DEBUG 10924 --- [main] c.i.c.m.CipherMapper.removeByNumber      : <==    Updates: 0
+2020-11-21 16:14:21.711 DEBUG 10924 --- [main] c.i.c.m.R.removeByNumber                 : ==>  Preparing: DELETE FROM tbl_registration WHERE registration_number = ? LIMIT 1;
+2020-11-21 16:14:21.712 DEBUG 10924 --- [main] c.i.c.m.R.removeByNumber                 : ==> Parameters: 2019002126(String)
+2020-11-21 16:14:21.730 DEBUG 10924 --- [main] c.i.c.m.R.removeByNumber                 : <==    Updates: 0
+2020-11-21 16:14:21.731 DEBUG 10924 --- [main] c.i.c.m.CharacterMapper.removeByNumber   : ==>  Preparing: DELETE FROM tbl_character WHERE character_number = ? LIMIT 1;
+2020-11-21 16:14:21.732 DEBUG 10924 --- [main] c.i.c.m.CharacterMapper.removeByNumber   : ==> Parameters: 2019002126(String)
+2020-11-21 16:14:21.750 DEBUG 10924 --- [main] c.i.c.m.CharacterMapper.removeByNumber   : <==    Updates: 0

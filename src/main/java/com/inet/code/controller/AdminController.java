@@ -137,7 +137,7 @@ public class AdminController {
      * 删除学生信息
      * @author HCY
      * @since 2020/11/19 9:55 下午
-     * @param number: 用户的uuid
+     * @param number: 学号
      * @return com.inet.code.utlis.Result
     */
     @ApiOperation("删除学生")

@@ -4,7 +4,9 @@
 
 
     <delete id="removeByNumber">
-        DELETE tbl_registration
+        DELETE
+        FROM
+             tbl_registration
         WHERE
             registration_number = #{number}
         LIMIT 1;
@@ -21,6 +23,7 @@
         FROM
             tbl_registration
         WHERE
-            registration_number = #{userNumber};
+            registration_number = #{userNumber}
+        LIMIT 1;
     </select>
 </mapper>

@@ -443,6 +443,9 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         cipherService.removeByNumber(number);
         //删除签到
         registrationService.removeByNumber(number);
+        //删除权限
+        characterService.removeByNumber(number);
+
         return new Result().result200("删除成功",path);
     }
 

@@ -4,10 +4,12 @@
 
     <!--通过学号删除-->
     <delete id="removeByNumber">
-        DELETE tbl_cipher
+        DELETE
+        FROM
+            tbl_cipher
         WHERE
             cipher_number = #{number}
-        LIMIT 1;
+        LIMIT 1
     </delete>
     <!--通过学号查找密码-->
     <select id="getByNumber" resultType="com.inet.code.entity.Cipher">

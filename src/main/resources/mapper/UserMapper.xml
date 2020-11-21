@@ -3,7 +3,9 @@
 <mapper namespace="com.inet.code.mapper.UserMapper">
     <!--通过学号删除-->
     <delete id="removeByNumber">
-        DELETE tbl_user
+        DELETE
+        FROM
+             tbl_user
         WHERE
             user_number = #{number}
         LIMIT 1;

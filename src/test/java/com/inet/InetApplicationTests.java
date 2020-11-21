@@ -6,6 +6,7 @@ import cn.hutool.core.util.StrUtil;
 import cn.hutool.crypto.digest.DigestUtil;
 import cn.hutool.system.SystemUtil;
 import com.inet.code.service.DefaultService;
+import com.inet.code.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -15,6 +16,9 @@ import javax.annotation.Resource;
 class InetApplicationTests {
     @Resource
     private DefaultService defaultService;
+
+    @Resource
+    private UserService userService;
 
     @Test
     void contextLoads() {
@@ -63,6 +67,11 @@ class InetApplicationTests {
         Integer b = 5;
         Integer c = a % b != 0 ? ((a / b) + 1) : (a / b);
         System.out.println(c);
+    }
+
+    @Test
+    void contextLoads_8(){
+        System.out.println(userService.getCancel("2019002126", "123"));
     }
 
 }

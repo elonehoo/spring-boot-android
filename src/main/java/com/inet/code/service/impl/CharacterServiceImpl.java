@@ -22,4 +22,8 @@ public class CharacterServiceImpl extends ServiceImpl<CharacterMapper, Character
     @Resource
     private CharacterMapper characterMapper;
 
+    @Override
+    public Boolean removeByNumber(String number) {
+        return characterMapper.removeByNumber(number);
+    }
 }
