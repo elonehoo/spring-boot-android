@@ -5,6 +5,7 @@ import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.lang.Validator;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.crypto.digest.DigestUtil;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.inet.code.entity.*;
 import com.inet.code.entity.Character;
@@ -353,8 +354,10 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         Page<Push> page = new Page<>(pagination,entry);
         //设置返回值设置
         Map<String, Object> map = new HashMap<>(2);
+        QueryWrapper<Push> queryWrapper = new QueryWrapper<>();
+        queryWrapper.orderByDesc("push_creation");
         map.put("info","请求成功，展示信息");
-        map.put("pages",pushService.page(page));
+        map.put("pages",pushService.page(page,queryWrapper));
         return new Result(
                 Result.STATUS_OK_200
                 ,Result.INFO_OK_200
